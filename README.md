@@ -1,4 +1,4 @@
-##NewYorkTimes Daily Mini-Crossword Puzzle Solver
+#NewYorkTimes Daily Mini-Crossword Puzzle Solver
 -----------------------------------------------
 Install chrome driver for selenium from http://selenium-python.readthedocs.io/installation.html
 
