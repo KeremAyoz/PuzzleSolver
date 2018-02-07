@@ -1965,4 +1965,397 @@
     }
   },
   "date": "2018-02-06"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": "none",
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": "none",
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": "none",
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": "none",
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": "none",
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": "none",
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": "none",
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": "none",
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": "none",
+      "key": "9"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Sister brand of Budweiser"
+      },
+      {
+        "key": "2",
+        "hint": "Dominant male"
+      },
+      {
+        "key": "3",
+        "hint": "Walk around with a little swagger"
+      },
+      {
+        "key": "4",
+        "hint": "Really, really angry"
+      },
+      {
+        "key": "5",
+        "hint": "\"Peace\""
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Leaf on a pizza"
+      },
+      {
+        "key": "6",
+        "hint": "Prefix meaning \"extremely\""
+      },
+      {
+        "key": "7",
+        "hint": "\"Jack ___ could eat no fat\""
+      },
+      {
+        "key": "8",
+        "hint": "Ladder's counterpart in a board game"
+      },
+      {
+        "key": "9",
+        "hint": "Critic who can never be pleased"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": "none",
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": "none",
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": "none",
+      "key": "3",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": "none",
+      "key": "4",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": "none",
+      "key": "5",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": "none",
+      "key": "6",
+      "solution": "U"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": "none",
+      "key": "7",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": "none",
+      "key": "8",
+      "solution": "C"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": "none",
+      "key": "9",
+      "solution": "H"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "R"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "BUSCH",
+      "2": "ALPHA",
+      "3": "STRUT",
+      "4": "IRATE",
+      "5": "LATER"
+    },
+    "Across": {
+      "1": "BASIL",
+      "6": "ULTRA",
+      "7": "SPRAT",
+      "8": "CHUTE",
+      "9": "HATER"
+    }
+  },
+  "date": "2018-02-07"
 }]
