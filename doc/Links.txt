@@ -26,3 +26,8 @@ https://gist.github.com/yxtay/a94d971955d901c4690129580a4eafb9
 
 https://github.com/wangz10/tensorflow-playground/blob/master/word2vec.py#L105
 
+
+Corpus
+******
+https://www.corpusdata.org/
+
