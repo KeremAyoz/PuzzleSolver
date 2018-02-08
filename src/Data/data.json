@@ -2358,4 +2358,397 @@
     }
   },
   "date": "2018-02-07"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": "none",
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": "none",
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": "none",
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": "none",
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": "black",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": "none",
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": "none",
+      "key": "6"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": "none",
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": "none",
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": "black",
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": "none",
+      "key": "9"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": "none",
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Target of the Dodd-Frank Act"
+      },
+      {
+        "key": "2",
+        "hint": "Kindle reading"
+      },
+      {
+        "key": "3",
+        "hint": "Chuck who created \"The Big Bang Theory\""
+      },
+      {
+        "key": "4",
+        "hint": "Student getting one-on-one help"
+      },
+      {
+        "key": "6",
+        "hint": "Easier said ___ done"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Pants holder-upper"
+      },
+      {
+        "key": "5",
+        "hint": "Approximately"
+      },
+      {
+        "key": "7",
+        "hint": "WIth 8-Across, diplomatically negotiated participant in the 2018 Winter Olympics"
+      },
+      {
+        "key": "8",
+        "hint": "See 7-Across"
+      },
+      {
+        "key": "9",
+        "hint": "Quick-witted"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": "none",
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": "none",
+      "key": "2",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": "none",
+      "key": "3",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": "none",
+      "key": "4",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": "black",
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": "none",
+      "key": "5",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "B"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": "none",
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": "none",
+      "key": "6",
+      "solution": "T"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": "none",
+      "key": "7",
+      "solution": "N"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": "none",
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": "none",
+      "key": "8",
+      "solution": "K"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": "none",
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": "black",
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": "none",
+      "key": "9",
+      "solution": "K"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": "none",
+      "key": "",
+      "solution": "N"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "BANK",
+      "2": "EBOOK",
+      "3": "LORRE",
+      "4": "TUTEE",
+      "6": "THAN"
+    },
+    "Across": {
+      "1": "BELT",
+      "5": "ABOUT",
+      "7": "NORTH",
+      "8": "KOREA",
+      "9": "KEEN"
+    }
+  },
+  "date": "2018-02-08"
 }]
