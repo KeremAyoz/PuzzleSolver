@@ -220,9 +220,9 @@ print("I'm ready")
 ##########################################
 
 #Starting date
-year = 2014
-month = 8
-day = 21
+year = 2015
+month = 5
+day = 6
 count = 5 #Day count, its initially thursday
 
 #Calculating todays day in integer format to determine the boundary
