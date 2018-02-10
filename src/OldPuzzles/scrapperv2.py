@@ -4,12 +4,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import json
 
-
 big_json = {}
 
 driver = webdriver.Chrome()
 
-def getCrossword():
+#Adds the current link's puzzle to data.json
+def getCrossword(puzzleLink):
+	driver.get(puzzleLink)
 	start_button = driver.find_element_by_class_name("buttons-modalButton--1REsR")
 	start_button.click()
 
@@ -175,46 +176,9 @@ def getCrossword():
 	##driver.delete_all_cookies()
 	return
 
-driver.get("https://myaccount.nytimes.com/auth/login?URI=")
-username = driver.find_element_by_id("username")
-password = driver.find_element_by_id("password")
-
-username.send_keys("erkutalakus@gmail.com")
-password.send_keys("ea22461016")
-driver.find_element_by_id("submitButton").click()
-
-########## CHANGE HERE !!! ###############
-i = 0
-while i < 150000000:
-	i = i + 1
-print("I'm ready")
-##########################################
-
-year = 2014
-month = 8
-day = 21
-
-while year <= 2017:
-	puzzleDate = "" + str(year) + "/"
-	if month < 10:
-		puzzleDate += "0"
-	puzzleDate += "" + str(month) + "/" 
-	if day < 10:
-		puzzleDate += "0"
-	puzzleDate += "" + str(day) + "/" 
-
-	puzzleLink = "https://www.nytimes.com/crosswords/game/mini/"
-	puzzleLink += puzzleDate
-	print("Link is :    -" + puzzleLink + "-  ")
-	driver.get(puzzleLink)
-	getCrossword()
-
+#Iterating through days
+def calendarForward(day,month,year):
 	day += 1
-
-	###################################################
-	### Getting rid from saturdays should be added. ###
-	###################################################
-
 	#Incrementing the month and resetting day in beginning of a month
 	if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12: # 31 day months
 		if day == 32:
@@ -233,13 +197,64 @@ while year <= 2017:
 			if day == 29:
 				month += 1
 				day = 1
-
 	#Incrementing the year and resetting month in beginning of a year
 	if month == 13:
 		year += 1
 		month = 1
+	return day,month,year
 
+#Login into account
+driver.get("https://myaccount.nytimes.com/auth/login?URI=")
+username = driver.find_element_by_id("username")
+password = driver.find_element_by_id("password")
+username.send_keys("erkutalakus@gmail.com")
+password.send_keys("ea22461016")
+driver.find_element_by_id("submitButton").click()
 
+#This is for the green ad, it disappears after some time so this loops wait it to disappear
+########## CHANGE HERE !!! ###############
+i = 0
+while i < 150000000:
+	i = i + 1
+print("I'm ready")
+##########################################
+
+#Starting date
+year = 2014
+month = 8
+day = 21
+count = 5 #Day count, its initially thursday
+
+#Calculating todays day in integer format to determine the boundary
+todayDate = datetime.date.today().year * 10000 + (datetime.date.today().month * 100) + datetime.date.today().day
+
+#Iterate though history
+while (year *10000 + month * 100 + day) <= todayDate:
+
+	#If current day is Saturday
+	if count % 7 == 0: # Skip Saturdays
+		day,month,year = calendarForward(day,month,year)
+		count += 1
+
+	#Build the current date as a string
+	puzzleDate = "" + str(year) + "/"
+	if month < 10:
+		puzzleDate += "0"
+	puzzleDate += "" + str(month) + "/" 
+	if day < 10:
+		puzzleDate += "0"
+	puzzleDate += "" + str(day) + "/" 
+
+	#Concatinate date with link
+	puzzleLink = "https://www.nytimes.com/crosswords/game/mini/"
+	puzzleLink += puzzleDate
+	getCrossword(puzzleLink)
+
+	#Increment date and day count
+	count += 1
+	day,month,year = calendarForward(day,month,year)
+
+#Exit
 driver.delete_all_cookies()
 driver.close()
 
