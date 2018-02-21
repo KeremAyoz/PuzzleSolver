@@ -8,8 +8,10 @@ import json
 
 big_json = {}
 
+options = webdriver.ChromeOptions()
+options.add_argument('headless')
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(chrome_options = options)
 driver.get("https://www.nytimes.com/crosswords/game/mini")
 
 start_button = driver.find_element_by_class_name("buttons-modalButton--1REsR")
