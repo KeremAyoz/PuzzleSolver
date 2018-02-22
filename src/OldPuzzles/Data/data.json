@@ -86849,4 +86849,11790 @@
     }
   },
   "date": "2018-02-10"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Getting five alarms, on a menu"
+      },
+      {
+        "key": "2",
+        "hint": "___ Speaker"
+      },
+      {
+        "key": "3",
+        "hint": "Kitchen appliances"
+      },
+      {
+        "key": "4",
+        "hint": "Prefix with thermal"
+      },
+      {
+        "key": "6",
+        "hint": "Percent deducted from a gambler's winnings by the casino"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Reason for an air quality alert"
+      },
+      {
+        "key": "5",
+        "hint": "Do some roadwork"
+      },
+      {
+        "key": "6",
+        "hint": "Element of many a Snapchat story"
+      },
+      {
+        "key": "7",
+        "hint": "\"___ hardly wait!\""
+      },
+      {
+        "key": "8",
+        "hint": "Rival businesses in \"Dodgeball: A True Underdog Story\""
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "G"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "V"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "G"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "VIG",
+      "1": "SPICY",
+      "2": "MADAM",
+      "3": "OVENS",
+      "4": "GEO"
+    },
+    "Across": {
+      "1": "SMOG",
+      "5": "PAVE",
+      "6": "VIDEO",
+      "7": "ICAN",
+      "8": "GYMS"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Deadly"
+      },
+      {
+        "key": "2",
+        "hint": "Words of resignation at the poker table"
+      },
+      {
+        "key": "3",
+        "hint": "High temperature"
+      },
+      {
+        "key": "4",
+        "hint": "Shock and ___"
+      },
+      {
+        "key": "6",
+        "hint": "Rank for former Taliban prisoner Bowe Bergdahl: Abbr."
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Popular EA Sports game"
+      },
+      {
+        "key": "5",
+        "hint": "Two or three"
+      },
+      {
+        "key": "6",
+        "hint": "Kitchen appliance"
+      },
+      {
+        "key": "7",
+        "hint": "Powerful wind"
+      },
+      {
+        "key": "8",
+        "hint": "Abbr. at the end of a long internet comment"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "F"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "F"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "F"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "W"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "G"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "SGT",
+      "1": "FATAL",
+      "2": "IFOLD",
+      "3": "FEVER",
+      "4": "AWE"
+    },
+    "Across": {
+      "1": "FIFA",
+      "5": "AFEW",
+      "6": "STOVE",
+      "7": "GALE",
+      "8": "TLDR"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "___ one (ticket phrase)"
+      },
+      {
+        "key": "2",
+        "hint": "Vehicle for the C.I.A.'s Special Activities Division"
+      },
+      {
+        "key": "3",
+        "hint": "One of Santa's reindeer"
+      },
+      {
+        "key": "4",
+        "hint": "Like the outfield walls at Wrigley Field"
+      },
+      {
+        "key": "5",
+        "hint": "English city NE of Manchester"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Brand of ibuprofen"
+      },
+      {
+        "key": "6",
+        "hint": "Google ___ (cloud storage space)"
+      },
+      {
+        "key": "7",
+        "hint": "Audacity"
+      },
+      {
+        "key": "8",
+        "hint": "\"___ Your Love\" (2013 hit for Calvin Harris and Ellie Goulding)"
+      },
+      {
+        "key": "9",
+        "hint": "Works the bar"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "D"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "V"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "D"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "M"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "X"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "ADMIT",
+      "2": "DRONE",
+      "3": "VIXEN",
+      "4": "IVIED",
+      "5": "LEEDS"
+    },
+    "Across": {
+      "1": "ADVIL",
+      "6": "DRIVE",
+      "7": "MOXIE",
+      "8": "INEED",
+      "9": "TENDS"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Like the Green Giant"
+      },
+      {
+        "key": "2",
+        "hint": "FX series frequently set in the Comedy Cellar"
+      },
+      {
+        "key": "3",
+        "hint": "On more than one occasion"
+      },
+      {
+        "key": "4",
+        "hint": "No. between 0 and 4"
+      },
+      {
+        "key": "5",
+        "hint": "Over there, poetically"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "\"The Boy Next Door\" star, familiarly"
+      },
+      {
+        "key": "4",
+        "hint": "Mickey Mouse's friend"
+      },
+      {
+        "key": "6",
+        "hint": "Mickey Mouse's pet"
+      },
+      {
+        "key": "7",
+        "hint": "\"Men in Black\" creature"
+      },
+      {
+        "key": "8",
+        "hint": "Currency whose symbol is a \"Y\" with two horizontal lines through it"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "J"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "G"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "F"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "Y"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "GPA",
+      "1": "JOLLY",
+      "2": "LOUIE",
+      "3": "OFTEN",
+      "5": "YON"
+    },
+    "Across": {
+      "1": "JLO",
+      "4": "GOOFY",
+      "6": "PLUTO",
+      "7": "ALIEN",
+      "8": "YEN"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Instruction manual segment"
+      },
+      {
+        "key": "2",
+        "hint": "Animation studio with the film \"Inside Out\""
+      },
+      {
+        "key": "3",
+        "hint": "5A, for Jerry on \"Seinfeld\": Abbr."
+      },
+      {
+        "key": "4",
+        "hint": "Portmanteau for a fashion-forward men's accessory"
+      },
+      {
+        "key": "6",
+        "hint": "Uses Venmo, say"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Emails with fake subject lines"
+      },
+      {
+        "key": "5",
+        "hint": "Tilt toward the sky"
+      },
+      {
+        "key": "7",
+        "hint": "Crowd scene actor"
+      },
+      {
+        "key": "8",
+        "hint": "Colorful violet"
+      },
+      {
+        "key": "9",
+        "hint": "Masses of fish eggs"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "M"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "E"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "X"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "STEP",
+      "2": "PIXAR",
+      "3": "APTNO",
+      "4": "MURSE",
+      "6": "PAYS"
+    },
+    "Across": {
+      "1": "SPAM",
+      "5": "TIPUP",
+      "7": "EXTRA",
+      "8": "PANSY",
+      "9": "ROES"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "World Factbook publisher, in brief"
+      },
+      {
+        "key": "2",
+        "hint": "\"I Kissed ___\": Katy Perry hit"
+      },
+      {
+        "key": "3",
+        "hint": "Told a whopper"
+      },
+      {
+        "key": "4",
+        "hint": "Grad student's mentor"
+      },
+      {
+        "key": "6",
+        "hint": "Landscaper's purchase"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Response to a poker bet"
+      },
+      {
+        "key": "4",
+        "hint": "Napoleon or Snowball, in \"Animal Farm\""
+      },
+      {
+        "key": "5",
+        "hint": "Response to a poker bet"
+      },
+      {
+        "key": "7",
+        "hint": "Shower curtain suspender"
+      },
+      {
+        "key": "8",
+        "hint": "Response to a poker bet"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5",
+      "solution": "R"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "F"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "PROF",
+      "1": "CIAO",
+      "2": "AGIRL",
+      "6": "LSOD",
+      "3": "LIED"
+    },
+    "Across": {
+      "1": "CALL",
+      "4": "PIGI",
+      "5": "RAISE",
+      "7": "OROD",
+      "8": "FOLD"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Hit the town"
+      },
+      {
+        "key": "2",
+        "hint": "\"Oh, give me ___ ...\""
+      },
+      {
+        "key": "3",
+        "hint": "Brazilian dance"
+      },
+      {
+        "key": "4",
+        "hint": "Snoring, in comics"
+      },
+      {
+        "key": "5",
+        "hint": "Govt. org. whose logo depicts an eagle standing on a key"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Word after laughing or natural"
+      },
+      {
+        "key": "4",
+        "hint": "2008 title role for Adam Sandler"
+      },
+      {
+        "key": "6",
+        "hint": "Takes off like a rocket"
+      },
+      {
+        "key": "7",
+        "hint": "Trendy dance fitness program"
+      },
+      {
+        "key": "8",
+        "hint": "4:00 English drink"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "G"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "Z"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "Z"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "Z"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "B"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "T"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "ZZZ",
+      "1": "GOOUT",
+      "2": "AHOME",
+      "3": "SAMBA",
+      "5": "NSA"
+    },
+    "Across": {
+      "1": "GAS",
+      "4": "ZOHAN",
+      "6": "ZOOMS",
+      "7": "ZUMBA",
+      "8": "TEA"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Ashtray accumulation"
+      },
+      {
+        "key": "2",
+        "hint": "E.M.T.'s cry before using a defibrillator"
+      },
+      {
+        "key": "3",
+        "hint": "Kooky"
+      },
+      {
+        "key": "5",
+        "hint": "Problem in old wood"
+      },
+      {
+        "key": "6",
+        "hint": "Happy ___ clam"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Canadian ___ (food)"
+      },
+      {
+        "key": "4",
+        "hint": "Dutch ___ (meal)"
+      },
+      {
+        "key": "7",
+        "hint": "French ___ (food)"
+      },
+      {
+        "key": "8",
+        "hint": "Veer off the beaten path"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "C"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "4",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "5",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "BUTTS",
+      "5": "AROT",
+      "2": "CLEAR",
+      "6": "OASA",
+      "3": "NUTTY"
+    },
+    "Across": {
+      "1": "BACON",
+      "-1": "ULU",
+      "4": "TREAT",
+      "7": "TOAST",
+      "8": "STRAY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "\"___ Don't Preach\" (Madonna hit)"
+      },
+      {
+        "key": "2",
+        "hint": "Ears that can't hear"
+      },
+      {
+        "key": "3",
+        "hint": "Yankee Stadium locale"
+      },
+      {
+        "key": "5",
+        "hint": "\"Need a moment? Chew it over with ___\" (ad slogan)"
+      },
+      {
+        "key": "6",
+        "hint": "Women's soccer star Morgan"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Toxic pollutant banned since the 1970s"
+      },
+      {
+        "key": "4",
+        "hint": "Crucial artery"
+      },
+      {
+        "key": "7",
+        "hint": "Patrol for prey"
+      },
+      {
+        "key": "8",
+        "hint": "Celebrity photographer Leibovitz"
+      },
+      {
+        "key": "9",
+        "hint": "Turkey, to a bowler"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "B"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "W"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "X"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "X"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "X"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "PAPA",
+      "2": "CORN",
+      "3": "BRONX",
+      "5": "TWIX",
+      "6": "ALEX"
+    },
+    "Across": {
+      "1": "PCB",
+      "4": "AORTA",
+      "7": "PROWL",
+      "8": "ANNIE",
+      "9": "XXX"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Sound muffled by a handkerchief"
+      },
+      {
+        "key": "2",
+        "hint": "Snapshot"
+      },
+      {
+        "key": "3",
+        "hint": "Of the Vatican"
+      },
+      {
+        "key": "4",
+        "hint": "You, in German"
+      },
+      {
+        "key": "6",
+        "hint": "What print books have that Kindles don't"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Twitter, Facebook and Instagram"
+      },
+      {
+        "key": "5",
+        "hint": "Certain Starbucks order, informally"
+      },
+      {
+        "key": "6",
+        "hint": "*prayer hands emoji*"
+      },
+      {
+        "key": "7",
+        "hint": "\"___ chance!\""
+      },
+      {
+        "key": "8",
+        "hint": "Marlboro alternative"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "P"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "N"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "K"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "INK",
+      "1": "ACHOO",
+      "2": "PHOTO",
+      "3": "PAPAL",
+      "4": "SIE"
+    },
+    "Across": {
+      "1": "APPS",
+      "5": "CHAI",
+      "6": "IHOPE",
+      "7": "NOTA",
+      "8": "KOOL"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Hero with a trademark \"Z\""
+      },
+      {
+        "key": "2",
+        "hint": "Standard Windows typeface"
+      },
+      {
+        "key": "3",
+        "hint": "Coin for a gumball machine"
+      },
+      {
+        "key": "4",
+        "hint": "Wise guy?"
+      },
+      {
+        "key": "5",
+        "hint": "___ Brothers (influential Republican donors)"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Pops in the microwave"
+      },
+      {
+        "key": "5",
+        "hint": "Land on the Sea of Japan"
+      },
+      {
+        "key": "6",
+        "hint": "Circular space shuttle gasket"
+      },
+      {
+        "key": "7",
+        "hint": "Origami bird"
+      },
+      {
+        "key": "8",
+        "hint": "\"___ smokes!\""
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "Z"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "K"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "O"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "C"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "H"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "5": "KOCH",
+      "1": "ZORRO",
+      "2": "ARIAL",
+      "3": "PENNY",
+      "4": "SAGE"
+    },
+    "Across": {
+      "1": "ZAPS",
+      "5": "KOREA",
+      "6": "ORING",
+      "7": "CRANE",
+      "8": "HOLY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Performance ___"
+      },
+      {
+        "key": "2",
+        "hint": "___ Men (\"Who Let the Dogs Out\" group)"
+      },
+      {
+        "key": "3",
+        "hint": "Prague native"
+      },
+      {
+        "key": "5",
+        "hint": "South African tribesman"
+      },
+      {
+        "key": "7",
+        "hint": "Item in a squirrel's stash"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Jackson 5 #1 hit of 1970"
+      },
+      {
+        "key": "4",
+        "hint": "Give a hard time"
+      },
+      {
+        "key": "6",
+        "hint": "N.Y.C. country club?"
+      },
+      {
+        "key": "8",
+        "hint": "Grp. defending individual rights"
+      },
+      {
+        "key": "9",
+        "hint": "Shelter with a thatch roof, maybe"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "B"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "C"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "R"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "Z"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "Z"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "C"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "H"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "ART",
+      "2": "BAHA",
+      "3": "CZECH",
+      "5": "ZULU",
+      "7": "NUT"
+    },
+    "Across": {
+      "1": "ABC",
+      "4": "RAZZ",
+      "6": "THEUN",
+      "8": "ACLU",
+      "9": "HUT"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "What pubgoers and babies both do"
+      },
+      {
+        "key": "2",
+        "hint": "Novelist/screenwriter Ephron"
+      },
+      {
+        "key": "3",
+        "hint": "Amusingly outlandish"
+      },
+      {
+        "key": "4",
+        "hint": "Recipe amt."
+      },
+      {
+        "key": "5",
+        "hint": "Hair colorers"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Federal health agcy."
+      },
+      {
+        "key": "4",
+        "hint": "Tire pattern"
+      },
+      {
+        "key": "6",
+        "hint": "Pleasant, weatherwise"
+      },
+      {
+        "key": "7",
+        "hint": "What Tinder users and petty thieves both do"
+      },
+      {
+        "key": "8",
+        "hint": "What Shakespeare and football teams both have"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "C"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "D"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "W"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "TBSP",
+      "1": "CRAWL",
+      "2": "DELIA",
+      "3": "CAMPY",
+      "5": "DYES"
+    },
+    "Across": {
+      "1": "CDC",
+      "4": "TREAD",
+      "6": "BALMY",
+      "7": "SWIPE",
+      "8": "PLAYS"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Loser to the U.S. in the 2014 World Cup"
+      },
+      {
+        "key": "2",
+        "hint": "Egg carton count"
+      },
+      {
+        "key": "3",
+        "hint": "Uncomplaining in the face of adversity"
+      },
+      {
+        "key": "4",
+        "hint": "Univ. employee"
+      },
+      {
+        "key": "5",
+        "hint": "Paris airport"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Merchandise: Abbr."
+      },
+      {
+        "key": "4",
+        "hint": "Posting on Instagram"
+      },
+      {
+        "key": "6",
+        "hint": "Beard remover"
+      },
+      {
+        "key": "7",
+        "hint": "NBC newsman Roger"
+      },
+      {
+        "key": "8",
+        "hint": "2014 #1 hit for Iggy Azalea"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "G"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "R"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "Z"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "O"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "F"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "C"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "PROF",
+      "1": "GHANA",
+      "2": "DOZEN",
+      "3": "STOIC",
+      "5": "ORLY"
+    },
+    "Across": {
+      "1": "GDS",
+      "4": "PHOTO",
+      "6": "RAZOR",
+      "7": "ONEIL",
+      "8": "FANCY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Completely dead"
+      },
+      {
+        "key": "2",
+        "hint": "Connected, as car wheels"
+      },
+      {
+        "key": "3",
+        "hint": "Open grassy area"
+      },
+      {
+        "key": "4",
+        "hint": "Table of data, e.g."
+      },
+      {
+        "key": "7",
+        "hint": "First number dialed when calling long distance"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "___ bear (gray)"
+      },
+      {
+        "key": "5",
+        "hint": "Gen ___ (baby boomer's successor)"
+      },
+      {
+        "key": "6",
+        "hint": "___ bear (white)"
+      },
+      {
+        "key": "8",
+        "hint": "French article"
+      },
+      {
+        "key": "9",
+        "hint": "___ bear (brown)"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "K"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "X"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "U"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "KAPUT",
+      "7": "OONE",
+      "2": "AXLED",
+      "3": "LEAD",
+      "4": "ARRAY"
+    },
+    "Across": {
+      "1": "KOALA",
+      "5": "AXER",
+      "6": "POLAR",
+      "8": "UNEA",
+      "9": "TEDDY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Mall tenant"
+      },
+      {
+        "key": "2",
+        "hint": "Nancy Pelosi's place of work, with \"the\""
+      },
+      {
+        "key": "3",
+        "hint": "No longer in the closet, say"
+      },
+      {
+        "key": "4",
+        "hint": "Inquire about private matters"
+      },
+      {
+        "key": "6",
+        "hint": "Pussy foot?"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Mall tenant"
+      },
+      {
+        "key": "5",
+        "hint": "___ de France"
+      },
+      {
+        "key": "6",
+        "hint": "Like a sullen child"
+      },
+      {
+        "key": "7",
+        "hint": "Behind, in Britspeak"
+      },
+      {
+        "key": "8",
+        "hint": "Dandelion or crabgrass"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "H"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "P"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "T"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "W"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "PAW",
+      "1": "STORE",
+      "2": "HOUSE",
+      "3": "OUTED",
+      "4": "PRY"
+    },
+    "Across": {
+      "1": "SHOP",
+      "5": "TOUR",
+      "6": "POUTY",
+      "7": "ARSE",
+      "8": "WEED"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Crowded places on Black Friday"
+      },
+      {
+        "key": "2",
+        "hint": "Word before discussion or dynamics"
+      },
+      {
+        "key": "3",
+        "hint": "___ Python"
+      },
+      {
+        "key": "4",
+        "hint": "Vehicle from the airport"
+      },
+      {
+        "key": "5",
+        "hint": "\"It was ... just ok\""
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Vegas's ___ Grand"
+      },
+      {
+        "key": "4",
+        "hint": "Bounce off the walls"
+      },
+      {
+        "key": "6",
+        "hint": "By oneself"
+      },
+      {
+        "key": "7",
+        "hint": "\"Arrested Development\" surname"
+      },
+      {
+        "key": "8",
+        "hint": "2015 Melissa McCarthy movie"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "M"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "G"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "M"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "C"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "M"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "S"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "CAB",
+      "1": "MALLS",
+      "2": "GROUP",
+      "3": "MONTY",
+      "5": "MEH"
+    },
+    "Across": {
+      "1": "MGM",
+      "4": "CAROM",
+      "6": "ALONE",
+      "7": "BLUTH",
+      "8": "SPY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Bombards with junk email"
+      },
+      {
+        "key": "2",
+        "hint": "Much-climbed peak in the Bernese Alps"
+      },
+      {
+        "key": "3",
+        "hint": "Purchases at Ollivanders in the Harry Potter books"
+      },
+      {
+        "key": "4",
+        "hint": "Buck ___, first African-American coach in Major League Baseball"
+      },
+      {
+        "key": "5",
+        "hint": "\"Not a chance!\""
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Attach with needle and thread"
+      },
+      {
+        "key": "6",
+        "hint": "Cat's instrument in a classic viral video"
+      },
+      {
+        "key": "7",
+        "hint": "Nixon's first vice president"
+      },
+      {
+        "key": "8",
+        "hint": "___ circus"
+      },
+      {
+        "key": "9",
+        "hint": "Texter's \"for real?!\""
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "W"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "W"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "M"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "SPAMS",
+      "2": "EIGER",
+      "3": "WANDS",
+      "4": "ONEIL",
+      "5": "NOWAY"
+    },
+    "Across": {
+      "1": "SEWON",
+      "6": "PIANO",
+      "7": "AGNEW",
+      "8": "MEDIA",
+      "9": "SRSLY"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Garment worn by Muslim women"
+      },
+      {
+        "key": "2",
+        "hint": "Carriage driver's controls"
+      },
+      {
+        "key": "3",
+        "hint": "Jazz style"
+      },
+      {
+        "key": "4",
+        "hint": "Amt."
+      },
+      {
+        "key": "5",
+        "hint": "Like iPods in 2001"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "\"Hang on a sec ...,\" in text messages"
+      },
+      {
+        "key": "4",
+        "hint": "\"We Will Rock You\" band"
+      },
+      {
+        "key": "6",
+        "hint": "\"Survivor\" faction"
+      },
+      {
+        "key": "7",
+        "hint": "Informal \"See what I mean?\""
+      },
+      {
+        "key": "8",
+        "hint": "Egyptian snake"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "B"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "Q"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "B"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "Y"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "K"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "W"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "4": "QTY",
+      "1": "BURKA",
+      "2": "REINS",
+      "3": "BEBOP",
+      "5": "NEW"
+    },
+    "Across": {
+      "1": "BRB",
+      "4": "QUEEN",
+      "6": "TRIBE",
+      "7": "YKNOW",
+      "8": "ASP"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Where the humerus bone is"
+      },
+      {
+        "key": "2",
+        "hint": "Purchase from Seamless.com"
+      },
+      {
+        "key": "3",
+        "hint": "Set of fortunetelling cards"
+      },
+      {
+        "key": "4",
+        "hint": "Quarterback protectors, in football slang"
+      },
+      {
+        "key": "5",
+        "hint": "Greek letter used as a symbol for ohms"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "\"Are not!\" retort"
+      },
+      {
+        "key": "6",
+        "hint": "Protector of the ___ (title in \"Game of Thrones\")"
+      },
+      {
+        "key": "7",
+        "hint": "___ Antoinette"
+      },
+      {
+        "key": "8",
+        "hint": "Justin of \"Dodgeball\""
+      },
+      {
+        "key": "9",
+        "hint": "Lipton product"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "M"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "R"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "M"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "ARM",
+      "2": "MEAL",
+      "3": "TAROT",
+      "4": "OLINE",
+      "5": "OMEGA"
+    },
+    "Across": {
+      "1": "AMTOO",
+      "6": "REALM",
+      "7": "MARIE",
+      "8": "LONG",
+      "9": "TEA"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Involuntary twitch"
+      },
+      {
+        "key": "2",
+        "hint": "Whole-grain cereal brand"
+      },
+      {
+        "key": "3",
+        "hint": "Bret Easton ___, \"American Psycho\" novelist"
+      },
+      {
+        "key": "4",
+        "hint": "Construct, as an elaborate lie"
+      },
+      {
+        "key": "5",
+        "hint": "Dolphins use it to find fish"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Depicts unfairly, as data"
+      },
+      {
+        "key": "6",
+        "hint": "Diet with a lot of berries, meat and nuts"
+      },
+      {
+        "key": "7",
+        "hint": "Liam Neeson voices him in the \"Narnia\" films"
+      },
+      {
+        "key": "8",
+        "hint": "Hindu god called \"the destroyer\""
+      },
+      {
+        "key": "9",
+        "hint": "Stingy sort"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "K"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "W"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "P"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "M"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "SPASM",
+      "2": "KASHI",
+      "3": "ELLIS",
+      "4": "WEAVE",
+      "5": "SONAR"
+    },
+    "Across": {
+      "1": "SKEWS",
+      "6": "PALEO",
+      "7": "ASLAN",
+      "8": "SHIVA",
+      "9": "MISER"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Conger catcher"
+      },
+      {
+        "key": "2",
+        "hint": "\u2192 Big swallow \u2190 Advertisement"
+      },
+      {
+        "key": "3",
+        "hint": "Fed. property agency"
+      },
+      {
+        "key": "4",
+        "hint": "Baked Italian entree"
+      },
+      {
+        "key": "5",
+        "hint": "Secretive org."
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Place for an unhatched chick"
+      },
+      {
+        "key": "4",
+        "hint": "\u2192 Greek god \u2190 Egyptian port"
+      },
+      {
+        "key": "5",
+        "hint": "\u2192 Kind of wafer \u2190 Certain poker bet"
+      },
+      {
+        "key": "6",
+        "hint": "\u2192 Dance move \u2190 Cats and dogs"
+      },
+      {
+        "key": "7",
+        "hint": "___ ball (terrible basketball shot)"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "G"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "G"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "Z"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5",
+      "solution": "N"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "6",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "7",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "5": "NSA",
+      "4": "ZITI",
+      "1": "EELER",
+      "2": "GULP",
+      "3": "GSA"
+    },
+    "Across": {
+      "1": "EGG",
+      "4": "ZEUS",
+      "5": "NILLA",
+      "6": "STEP",
+      "7": "AIR"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Include secretly on an email"
+      },
+      {
+        "key": "2",
+        "hint": "The \"R\" of gaming's RPG"
+      },
+      {
+        "key": "3",
+        "hint": "Sheep's cry"
+      },
+      {
+        "key": "5",
+        "hint": "Sprint"
+      },
+      {
+        "key": "7",
+        "hint": "Kind of whiskey"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "\"Hang on, putting my phone down a sec\""
+      },
+      {
+        "key": "4",
+        "hint": "Comparative with ice"
+      },
+      {
+        "key": "6",
+        "hint": "Comparative with mud"
+      },
+      {
+        "key": "8",
+        "hint": "Comparative with pie"
+      },
+      {
+        "key": "9",
+        "hint": "Word often ignored when alphabetizing"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "B"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "C"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "C"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "BCC",
+      "2": "ROLE",
+      "3": "BLEAT",
+      "5": "DASH",
+      "7": "RYE"
+    },
+    "Across": {
+      "1": "BRB",
+      "4": "COLD",
+      "6": "CLEAR",
+      "8": "EASY",
+      "9": "THE"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Point the finger at"
+      },
+      {
+        "key": "2",
+        "hint": "Scout's job, briefly"
+      },
+      {
+        "key": "3",
+        "hint": "Bring to mind"
+      },
+      {
+        "key": "4",
+        "hint": "Word before cage or eye"
+      },
+      {
+        "key": "6",
+        "hint": "\"The ___ is up!\""
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Title in an Uncle Remus story"
+      },
+      {
+        "key": "5",
+        "hint": "First name in jeans"
+      },
+      {
+        "key": "6",
+        "hint": "Team ___ (\"Twilight\" fan group)"
+      },
+      {
+        "key": "7",
+        "hint": "\"Don't worry about me\""
+      },
+      {
+        "key": "8",
+        "hint": "There's one for curly hair"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "B"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "J"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "C"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "B"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "K"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "G"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "JIG",
+      "1": "BLAME",
+      "2": "RECON",
+      "3": "EVOKE",
+      "4": "RIB"
+    },
+    "Across": {
+      "1": "BRER",
+      "5": "LEVI",
+      "6": "JACOB",
+      "7": "IMOK",
+      "8": "GENE"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "\"Don't mind ___ do!\""
+      },
+      {
+        "key": "2",
+        "hint": "Ionic, covalent or metallic"
+      },
+      {
+        "key": "3",
+        "hint": "The \"M\" of D.M.V."
+      },
+      {
+        "key": "5",
+        "hint": "Ten Commandments pronoun"
+      },
+      {
+        "key": "7",
+        "hint": "Physics unit"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Creator of Watson, the memorable 2011 \"Jeopardy!\" winner"
+      },
+      {
+        "key": "4",
+        "hint": "With 6- and 8-Across, entry that allows for later success"
+      },
+      {
+        "key": "6",
+        "hint": "See 4-Across"
+      },
+      {
+        "key": "8",
+        "hint": "See 4-Across"
+      },
+      {
+        "key": "9",
+        "hint": "Praying surface"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "B"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "F"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "D"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "IFI",
+      "2": "BOND",
+      "3": "MOTOR",
+      "5": "THOU",
+      "7": "ERG"
+    },
+    "Across": {
+      "1": "IBM",
+      "4": "FOOT",
+      "6": "INTHE",
+      "8": "DOOR",
+      "9": "RUG"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Finish, as a crossword"
+      },
+      {
+        "key": "2",
+        "hint": "Prepare to go out"
+      },
+      {
+        "key": "3",
+        "hint": "Good way to go out"
+      },
+      {
+        "key": "4",
+        "hint": "Abound (with)"
+      },
+      {
+        "key": "5",
+        "hint": "They make the pot bigger"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Word after sweet, soft or sun"
+      },
+      {
+        "key": "5",
+        "hint": "Carried"
+      },
+      {
+        "key": "6",
+        "hint": "Cream of the crop"
+      },
+      {
+        "key": "7",
+        "hint": "Marge Simpson or Lois Griffin"
+      },
+      {
+        "key": "8",
+        "hint": "___ Blatter, former head of FIFA"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "P"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "T"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "E"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "V"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "5": "BETS",
+      "1": "SOLVE",
+      "2": "PRIMP",
+      "3": "ONTOP",
+      "4": "TEEM"
+    },
+    "Across": {
+      "1": "SPOT",
+      "5": "BORNE",
+      "6": "ELITE",
+      "7": "TVMOM",
+      "8": "SEPP"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Q: Why did the mushroom get invited to the party? A: Because he's a ___"
+      },
+      {
+        "key": "2",
+        "hint": "Put a stop to"
+      },
+      {
+        "key": "3",
+        "hint": "Creater of Holmes and Watson"
+      },
+      {
+        "key": "4",
+        "hint": "\"We just said the same thing!\""
+      },
+      {
+        "key": "5",
+        "hint": "\"Little Red Book\" chairman"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "What Janet Yellen runs, with \"the\""
+      },
+      {
+        "key": "4",
+        "hint": "2007 title role for Ellen Page"
+      },
+      {
+        "key": "5",
+        "hint": "\"The ___ Project\" (Hulu comedy)"
+      },
+      {
+        "key": "6",
+        "hint": "Heavenly body?"
+      },
+      {
+        "key": "7",
+        "hint": "Iron ___ (rust)"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "F"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "D"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "4",
+      "solution": "J"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "5",
+      "solution": "M"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "Y"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "6",
+      "solution": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "7",
+      "solution": "O"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "X"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "D"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "5": "MAO",
+      "4": "JINX",
+      "1": "FUNGI",
+      "2": "ENDED",
+      "3": "DOYLE"
+    },
+    "Across": {
+      "1": "FED",
+      "4": "JUNO",
+      "5": "MINDY",
+      "6": "ANGEL",
+      "7": "OXIDE"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "\"Surely you ___\""
+      },
+      {
+        "key": "2",
+        "hint": "Energize"
+      },
+      {
+        "key": "3",
+        "hint": "Largest state in New England"
+      },
+      {
+        "key": "4",
+        "hint": "What the Wright Brothers originally made for a living"
+      },
+      {
+        "key": "6",
+        "hint": "For fear that"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Doorframe part"
+      },
+      {
+        "key": "5",
+        "hint": "Virus spreader, at times"
+      },
+      {
+        "key": "7",
+        "hint": "Sudden increase on a graph"
+      },
+      {
+        "key": "8",
+        "hint": "Adjusts, as a guitar"
+      },
+      {
+        "key": "9",
+        "hint": "Kid who keeps asking inane questions, e.g."
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "J"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "M"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "B"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "E"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "M"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "I"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "K"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "T"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "JEST",
+      "2": "AMPUP",
+      "3": "MAINE",
+      "4": "BIKES",
+      "6": "LEST"
+    },
+    "Across": {
+      "1": "JAMB",
+      "5": "EMAIL",
+      "7": "SPIKE",
+      "8": "TUNES",
+      "9": "PEST"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "Person who uses a sleeve for a napkin, say"
+      },
+      {
+        "key": "2",
+        "hint": "Famous feature of Venice"
+      },
+      {
+        "key": "3",
+        "hint": "Conclusion to a song"
+      },
+      {
+        "key": "4",
+        "hint": "Incorrect"
+      },
+      {
+        "key": "5",
+        "hint": "Swimmers' back-and-forths"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "Grumpy expression"
+      },
+      {
+        "key": "6",
+        "hint": "First lady before Michelle"
+      },
+      {
+        "key": "7",
+        "hint": "___ of the world (elated)"
+      },
+      {
+        "key": "8",
+        "hint": "Square dance venues"
+      },
+      {
+        "key": "9",
+        "hint": "___ flume (amusement park ride)"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "S"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "W"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "5",
+      "solution": "L"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "6",
+      "solution": "L"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "U"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "7",
+      "solution": "O"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "P"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "8",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "9",
+      "solution": "L"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "G"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "1": "SLOB",
+      "2": "CANAL",
+      "3": "OUTRO",
+      "4": "WRONG",
+      "5": "LAPS"
+    },
+    "Across": {
+      "1": "SCOWL",
+      "6": "LAURA",
+      "7": "ONTOP",
+      "8": "BARNS",
+      "9": "LOG"
+    }
+  },
+  "date": "2018-02-22"
+} , {
+  "cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": ""
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": ""
+    }
+  ],
+  "clues": {
+    "Down": [
+      {
+        "key": "1",
+        "hint": "The smile or frown of an emoticon, for short"
+      },
+      {
+        "key": "2",
+        "hint": "Come at ___"
+      },
+      {
+        "key": "3",
+        "hint": "Sauce made with pine nuts"
+      },
+      {
+        "key": "4",
+        "hint": "Volcanic fallout"
+      },
+      {
+        "key": "6",
+        "hint": "Grp. that's currently investigating FIFA"
+      }
+    ],
+    "Across": [
+      {
+        "key": "1",
+        "hint": "One of the Smurfs"
+      },
+      {
+        "key": "5",
+        "hint": "Best hand in Texas Hold 'Em"
+      },
+      {
+        "key": "6",
+        "hint": "Next year's sophs"
+      },
+      {
+        "key": "7",
+        "hint": "Preeminent"
+      },
+      {
+        "key": "8",
+        "hint": "\"___ The Woods\" (2014 Meryl Streep/Anna Kendrick movie)"
+      }
+    ]
+  },
+  "solution_cells": [
+    {
+      "x": 1,
+      "y": 1,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "color": null,
+      "key": "1",
+      "solution": "P"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "color": null,
+      "key": "2",
+      "solution": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "color": null,
+      "key": "3",
+      "solution": "P"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "color": null,
+      "key": "4",
+      "solution": "A"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "color": null,
+      "key": "5",
+      "solution": "A"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "C"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "color": null,
+      "key": "6",
+      "solution": "F"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "R"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "color": null,
+      "key": "",
+      "solution": "H"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "color": null,
+      "key": "7",
+      "solution": "B"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "E"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "S"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "color": null,
+      "key": "",
+      "solution": ""
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "color": null,
+      "key": "8",
+      "solution": "I"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "N"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "T"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": "O"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "color": null,
+      "key": "",
+      "solution": ""
+    }
+  ],
+  "solutions": {
+    "Down": {
+      "6": "FBI",
+      "1": "PAREN",
+      "2": "ACOST",
+      "3": "PESTO",
+      "4": "ASH"
+    },
+    "Across": {
+      "1": "PAPA",
+      "5": "ACES",
+      "6": "FROSH",
+      "7": "BEST",
+      "8": "INTO"
+    }
+  },
+  "date": "2018-02-22"
 }]
