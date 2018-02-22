@@ -10,7 +10,7 @@ import threading
 THREAD_COUNT = 4
 HEADLESS = True
 VERBOSE = False
-START_DATE = date(2018, 2, 1)
+START_DATE = date(2017, 1, 1) #not included
 END_DATE = date.today()
 USERNAME = "erkutalakus@gmail.com"
 PASSWORD = "ea22461016"
@@ -25,8 +25,6 @@ if HEADLESS:
     OPTIONS.add_argument('--headless')
 if not VERBOSE:    
     OPTIONS.add_argument('--log-level=3')
-
-print(str(END_DATE))
 
 def getCrossword(driver, puzzleDate):
     #start to get puzzle
@@ -201,13 +199,13 @@ def append_to_json(_dict, path):
 def driverLoop(index):
     global CURRENT_DATE, DATE_LOCK, FILE_LOCK, OPTIONS, USERNAME, PASSWORD
     driverFailed = True
+    
     while driverFailed:
         try:
             driver = webdriver.Chrome(chrome_options = OPTIONS)
             driverFailed = False
         except:
             print("Driver " + str(index+1) + " failed to initialize. Retrying...")
-            pass
 
     wait = WebDriverWait(driver, 100)
     print("Driver " + str(index+1) + " initialized.")
