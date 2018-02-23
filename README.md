@@ -4,6 +4,7 @@ This project needs Python 3.6 to run.
 
 Prerequisite Python Packages:
 - htmlPy            (http://amol-mandhane.github.io/htmlPy/)
+- jinja2            (http://jinja.pocoo.org/docs/2.10/)
 - PySide for p3.6   (https://download.lfd.uci.edu/pythonlibs/n1rrk3iq/PySide-1.2.4-cp36-cp36m-win_amd64.whl)
 - Selenium          (http://selenium-python.readthedocs.io/
 
