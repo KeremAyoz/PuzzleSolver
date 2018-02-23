@@ -1,4 +1,4 @@
-from datetime import date, timedelta
+from datetime import date, timedelta, time
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,14 +7,17 @@ import json
 import time
 import threading
 
-THREAD_COUNT = 4
+#settings
+THREAD_COUNT = 6
+MAX_RETRY = 3
 HEADLESS = True
 VERBOSE = False
-START_DATE = date(2017, 1, 1) #not included
-END_DATE = date.today()
+START_DATE = date(2017, 1, 1)   #included
+END_DATE = date.today()         #included
 USERNAME = "erkutalakus@gmail.com"
 PASSWORD = "ea22461016"
 
+#shared
 CURRENT_DATE = START_DATE
 FILE_LOCK = threading.Lock()
 DATE_LOCK = threading.Lock()
@@ -26,7 +29,7 @@ if HEADLESS:
 if not VERBOSE:    
     OPTIONS.add_argument('--log-level=3')
 
-def getCrossword(driver, puzzleDate):
+def getCrossword(driver, puzzleDate, retry = 0):
     #start to get puzzle
     big_json = {}
 
@@ -36,7 +39,15 @@ def getCrossword(driver, puzzleDate):
         start_button = driver.find_element_by_class_name("buttons-modalButton--1REsR")
         start_button.click()
     except NoSuchElementException:
-        driver.find_element_by_class_name("Toolbar-resetButton--1bkIx").find_element_by_tag_name("button").click()
+        try:
+            driver.find_element_by_class_name("Toolbar-resetButton--1bkIx").find_element_by_tag_name("button").click()
+        except:
+            global MAX_RETRY
+            if retry <= MAX_RETRY:
+                print(str(puzzleDate) + " --- Unable to fetch puzzle. Retrying...(%s)" % (retry + 1))
+                return getCrossword(driver, puzzleDate, retry = retry + 1)
+            else:
+                print(str(puzzleDate) + " --- Unable to fetch puzzle. Retry limit exceeded, skipping.")
 
     cell_container = driver.find_element_by_css_selector('[data-group="cells"]')
     cells = cell_container.find_elements_by_tag_name("g")
@@ -199,7 +210,7 @@ def append_to_json(_dict, path):
 def driverLoop(index):
     global CURRENT_DATE, DATE_LOCK, FILE_LOCK, OPTIONS, USERNAME, PASSWORD
     driverFailed = True
-    
+
     while driverFailed:
         try:
             driver = webdriver.Chrome(chrome_options = OPTIONS)
@@ -221,17 +232,24 @@ def driverLoop(index):
 
     print("Thread " + str(index+1) + " successfully logged in.")
 
-    while CURRENT_DATE < END_DATE:
+    while True:
         DATE_LOCK.acquire()
-        CURRENT_DATE = CURRENT_DATE + timedelta(days=1)
+
+        #end loop
+        if CURRENT_DATE > END_DATE:
+            DATE_LOCK.release()
+            break
+
         assigned_date = CURRENT_DATE
+        CURRENT_DATE = CURRENT_DATE + timedelta(days=1)
         if (assigned_date.weekday() == 5): #if it is saturday, pass
             DATE_LOCK.release()
             print("Puzzle " + assigned_date.strftime("%x") + " passed because it is SATURDAY")
             continue
-        DATE_LOCK.release()
-        print("Started to fetch: " + assigned_date.strftime("%x"))
 
+        DATE_LOCK.release()
+
+        print("Started to fetch: " + assigned_date.strftime("%x"))
         json = getCrossword(driver, assigned_date)
 
         FILE_LOCK.acquire()
@@ -245,6 +263,7 @@ def driverLoop(index):
 
     print("Thread " + str(index+1) + " finished.")
 
+start_time = time.time()
 threads = []
 #start threads here
 for x in range(0,THREAD_COUNT):
@@ -256,3 +275,5 @@ for x in range(0,THREAD_COUNT):
 #wait for threads to finish their job
 for x in range(0,THREAD_COUNT):
     threads[x].join()
+
+print("---- Scrapper ran for %s seconds ----" % (time.time() - start_time))
