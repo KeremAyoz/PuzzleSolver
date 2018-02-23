@@ -12,8 +12,8 @@ THREAD_COUNT = 6
 MAX_RETRY = 3
 HEADLESS = True
 VERBOSE = False
-START_DATE = date(2017, 1, 1)   #included
-END_DATE = date.today()         #included
+START_DATE = date(2014, 8, 21)      #included
+END_DATE = date.today()             #included
 USERNAME = "erkutalakus@gmail.com"
 PASSWORD = "ea22461016"
 
@@ -25,9 +25,10 @@ DATE_LOCK = threading.Lock()
 #webdriver options
 OPTIONS = webdriver.ChromeOptions()
 if HEADLESS:
-    OPTIONS.add_argument('--headless')
+    OPTIONS.set_headless(headless=True)
 if not VERBOSE:    
     OPTIONS.add_argument('--log-level=3')
+OPTIONS.add_argument("--gpu-process")
 
 def getCrossword(driver, puzzleDate, retry = 0):
     #start to get puzzle
@@ -43,11 +44,12 @@ def getCrossword(driver, puzzleDate, retry = 0):
             driver.find_element_by_class_name("Toolbar-resetButton--1bkIx").find_element_by_tag_name("button").click()
         except:
             global MAX_RETRY
-            if retry <= MAX_RETRY:
+            if retry < MAX_RETRY:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retrying...(%s)" % (retry + 1))
                 return getCrossword(driver, puzzleDate, retry = retry + 1)
             else:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retry limit exceeded, skipping.")
+                return None
 
     cell_container = driver.find_element_by_css_selector('[data-group="cells"]')
     cells = cell_container.find_elements_by_tag_name("g")
@@ -196,6 +198,8 @@ def getCrossword(driver, puzzleDate, retry = 0):
     return big_json
 
 def append_to_json(_dict, path):
+    if _dict == None:
+        return
     with open(path, 'ab+') as f:
         f.seek(0, 2)  # Go to the end of file
         if f.tell() == 0:  # Check if file is empty
@@ -207,7 +211,7 @@ def append_to_json(_dict, path):
             f.write(str.encode(json.dumps(_dict, indent=2)))  # Dump the dictionary
             f.write(str.encode(']'))  # Close the array
 
-def driverLoop(index):
+def driverLoop(index, retry = 0):
     global CURRENT_DATE, DATE_LOCK, FILE_LOCK, OPTIONS, USERNAME, PASSWORD
     driverFailed = True
 
@@ -216,10 +220,14 @@ def driverLoop(index):
             driver = webdriver.Chrome(chrome_options = OPTIONS)
             driverFailed = False
         except:
-            print("Driver " + str(index+1) + " failed to initialize. Retrying...")
+            if retry < MAX_RETRY:
+                print("Driver " + str(index + 1) + " failed to initialize. Retrying...(%s)" % (retry + 1))
+                return driverLoop(index, retry + 1)
+            else:
+                print("Driver " + str(index + 1) + " failed to initialize. Discarding.")
+                return
 
-    wait = WebDriverWait(driver, 100)
-    print("Driver " + str(index+1) + " initialized.")
+    print("Driver " + str(index + 1) + " initialized.")
 
     #Login into account
     driver.get("https://myaccount.nytimes.com/auth/login?URI=")
@@ -230,7 +238,7 @@ def driverLoop(index):
     driver.find_element_by_id("submitButton").click()
     time.sleep(20)
 
-    print("Thread " + str(index+1) + " successfully logged in.")
+    print("Thread " + str(index + 1) + " successfully logged in.")
 
     while True:
         DATE_LOCK.acquire()
@@ -259,9 +267,9 @@ def driverLoop(index):
 
     driver.delete_all_cookies()
     driver.close()
-    print("Driver " + str(index+1) + " closed.")
+    print("Driver " + str(index + 1) + " closed.")
 
-    print("Thread " + str(index+1) + " finished.")
+    print("Thread " + str(index + 1) + " finished.")
 
 start_time = time.time()
 threads = []
@@ -269,7 +277,7 @@ threads = []
 for x in range(0,THREAD_COUNT):
     threads.append(threading.Thread(target=driverLoop, args=(x,)))
     threads[x].start()
-    print("Thread " + str(x+1) + " started.")
+    print("Thread " + str(x + 1) + " started.")
     time.sleep(1)
 
 #wait for threads to finish their job
