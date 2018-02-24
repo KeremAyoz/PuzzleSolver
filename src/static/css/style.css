@@ -1,3 +1,52 @@
 .container {
     width: 100%;
 }
+
+.jumbotron {
+    padding-top: 3px;
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 18%;
+    padding-bottom : 18%; /* = width for a 1:1 aspect ratio */
+    margin: 1%;
+    background-color:#f9f9f9;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+}
+
+.square.black {
+    background-color: #0f0f0f
+}
+
+.content {
+    position: absolute;
+    height: 96%; /* = 100% - 2*2% padding */
+    width: 96%; /* = 100% - 2*2% padding */
+    padding: 2%;
+    color: #0f0f0f;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.number {
+    color: #0f0f0f;
+    position: absolute;
+    font-size: 24px;
+    top: 5%;
+    left: 5%;
+}

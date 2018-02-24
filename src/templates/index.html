@@ -8,41 +8,250 @@
         <!-- Bootstrap -->
         <link rel="stylesheet" href="{{ 'css/bootstrap.min.css'|staticfile }}"/>
         <link rel="stylesheet" href="{{ 'css/style.css'|staticfile }}"/>
-
+        <script>
+            var console = {};
+            console.log = function(log){
+                Controller.console_log(log, 'log');
+            };
+            console.debug = function(log){
+                Controller.console_log(log, 'log');
+            };
+            console.error = function(){
+                var args = Array.prototype.slice.call(arguments, 0);
+                Controller.console_log(args.join(','), 'error');
+            };
+            console.exception = function(){
+                var args = Array.prototype.slice.call(arguments, 0);
+                Controller.console_log(args.join(','), 'error');
+            };
+            window.console = console;
+        </script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ 'js/jquery-3.3.1.min.js'|staticfile }}"></script>
         <script src="{{ 'js/bootstrap.min.js'|staticfile }}"></script>
+
     </head>
     <body>
         <div class="jumbotron text-center">
-            <h1>Puzzle Solver</h1>
+            <h1>Enigma's Puzzle Solver</h1>
             <p>Enter a date to see its puzzle!</p>
             <form class="form-inline" action="Controller.get_puzzle" id="date_form" data-bind="true">
-                <div class="form-group">
-                    <input class="form-control" type="text" id="form_input" name="name" placeholder="dd-mm-yyyy">
-                </div>
-                <input class="btn btn-primary" type="submit" value="Submit" id="form_submit">
+                <input class="form-control" type="text" id="date_form_input" name="date" placeholder="dd-mm-yyyy">
+                <input class="btn btn-primary" type="submit" value="Get!" id="date_form_submit">
             </form>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-heading">Puzzle</div>
                         <div class="panel-body">
-                            <p>...</p>
+                            <!-- 5x5 grid -->
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square">
+                                <div class="content">
+                                    <span class="number">1</span>
+                                    <div class="table">
+                                        <div class="table-cell text-center">A</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Table -->
-                        <table class="table">
-                            <tr>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-heading">Across</div>
@@ -60,7 +269,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-heading">Down</div>
