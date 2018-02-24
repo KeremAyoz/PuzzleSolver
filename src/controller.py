@@ -1,13 +1,19 @@
 import json
 import htmlPy
-from datetime import date, datetime
+from datetime import datetime
 
 
 class Controller(htmlPy.Object):
 
+    puzzles = None
+
     def __init__(self, app):
         super(Controller, self).__init__()
         self.app = app
+        try:
+            self.puzzles = json.load(open('back_end/Data/data.json'))
+        except:
+            self.console_log('data.json not found!', 'error')
 
     @htmlPy.Slot()
     def say_hello_world(self):
@@ -23,14 +29,14 @@ class Controller(htmlPy.Object):
 
         # Find Puzzle
         puzzle = None
-        puzzles = json.load(open('back_end/Data/data.json'))
-        for x in puzzles:
-            if x['date'] == str(puzzle_date):
-                puzzle = x
-                break;
+        if self.puzzles is not None:
+            for x in self.puzzles:
+                if x['date'] == str(puzzle_date):
+                    puzzle = x
+                    break;
 
         # Not found
-        if puzzle == None:
+        if puzzle is None:
             self.app.evaluate_javascript("alert('Sorry, Puzzle not fetched yet!')");
             return
         self.app.evaluate_javascript("initPuzzle(" + json.dumps(puzzle) + ")")
