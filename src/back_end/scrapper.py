@@ -19,6 +19,7 @@ PASSWORD = "ea22461016"
 
 #shared
 CURRENT_DATE = START_DATE
+FAILED_ONES = []
 FILE_LOCK = threading.Lock()
 DATE_LOCK = threading.Lock()
 
@@ -28,7 +29,7 @@ if HEADLESS:
     OPTIONS.set_headless(headless=True)
 if not VERBOSE:    
     OPTIONS.add_argument('--log-level=3')
-OPTIONS.add_argument("--gpu-process")
+OPTIONS.add_argument("--mute-audio")
 
 def getCrossword(driver, puzzleDate, retry = 0):
     #start to get puzzle
@@ -49,6 +50,9 @@ def getCrossword(driver, puzzleDate, retry = 0):
                 return getCrossword(driver, puzzleDate, retry = retry + 1)
             else:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retry limit exceeded, skipping.")
+                DATE_LOCK.acquire()
+                FAILED_ONES.append(puzzleDate)
+                DATE_LOCK.release()
                 return None
 
     cell_container = driver.find_element_by_css_selector('[data-group="cells"]')
@@ -193,12 +197,12 @@ def getCrossword(driver, puzzleDate, retry = 0):
 
 
     big_json['solutions'] = solutions
-    big_json['date'] = str(date.today())
+    big_json['date'] = str(puzzleDate)
 
     return big_json
 
 def append_to_json(_dict, path):
-    if _dict == None:
+    if _dict is None:
         return
     with open(path, 'ab+') as f:
         f.seek(0, 2)  # Go to the end of file
@@ -236,32 +240,36 @@ def driverLoop(index, retry = 0):
     username.send_keys(USERNAME)
     password.send_keys(PASSWORD)
     driver.find_element_by_id("submitButton").click()
-    time.sleep(20)
+    time.sleep(60)  # wait some to login. increase it if one or more thread fails
 
     print("Thread " + str(index + 1) + " successfully logged in.")
 
     while True:
         DATE_LOCK.acquire()
 
-        #end loop
+        # loop check
         if CURRENT_DATE > END_DATE:
-            DATE_LOCK.release()
-            break
-
-        assigned_date = CURRENT_DATE
-        CURRENT_DATE = CURRENT_DATE + timedelta(days=1)
-        if (assigned_date.weekday() == 5): #if it is saturday, pass
-            DATE_LOCK.release()
-            print("Puzzle " + assigned_date.strftime("%x") + " passed because it is SATURDAY")
-            continue
+            if len(FAILED_ONES) > 0:
+                assigned_date = FAILED_ONES.pop()
+                DATE_LOCK.release()
+            else:                   # end loop
+                DATE_LOCK.release()
+                break
+        else:
+            assigned_date = CURRENT_DATE
+            CURRENT_DATE = CURRENT_DATE + timedelta(days=1)
+            if assigned_date.weekday() == 5:  # if it is saturday, pass
+                DATE_LOCK.release()
+                print("Puzzle " + assigned_date.strftime("%x") + " passed because it is SATURDAY")
+                continue
 
         DATE_LOCK.release()
 
         print("Started to fetch: " + assigned_date.strftime("%x"))
-        json = getCrossword(driver, assigned_date)
+        day_json = getCrossword(driver, assigned_date)
 
         FILE_LOCK.acquire()
-        append_to_json(json, "Data/data.json")
+        append_to_json(day_json, "Data/data.json")
         FILE_LOCK.release()
         print("Puzzle " + assigned_date.strftime("%x") + " written to file.")
 
