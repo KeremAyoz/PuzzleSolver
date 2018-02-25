@@ -262,8 +262,7 @@ def driverLoop(index, retry = 0):
                 DATE_LOCK.release()
                 print("Puzzle " + assigned_date.strftime("%x") + " passed because it is SATURDAY")
                 continue
-
-        DATE_LOCK.release()
+            DATE_LOCK.release()
 
         print("Started to fetch: " + assigned_date.strftime("%x"))
         day_json = getCrossword(driver, assigned_date)
@@ -279,16 +278,18 @@ def driverLoop(index, retry = 0):
 
     print("Thread " + str(index + 1) + " finished.")
 
+
 start_time = time.time()
 threads = []
-#start threads here
+
+# start threads here
 for x in range(0,THREAD_COUNT):
     threads.append(threading.Thread(target=driverLoop, args=(x,)))
     threads[x].start()
     print("Thread " + str(x + 1) + " started.")
     time.sleep(1)
 
-#wait for threads to finish their job
+# wait for threads to finish their job
 for x in range(0,THREAD_COUNT):
     threads[x].join()
 
