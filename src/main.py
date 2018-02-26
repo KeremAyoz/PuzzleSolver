@@ -16,7 +16,7 @@ app.template_path = os.path.join(BASE_DIR, "templates/")
 app.window.setWindowIcon(PySide.QtGui.QIcon(BASE_DIR + "/static/img/icon.png"))
 
 # Register back-end functionalities
-app.bind(Controller(app))
+app.bind(Controller(app, BASE_DIR))
 
 app.template = ("index.html", {})
 

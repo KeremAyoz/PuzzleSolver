@@ -1,17 +1,18 @@
 import json
 import htmlPy
 from datetime import datetime
+import os
 
 
 class Controller(htmlPy.Object):
 
     puzzles = None
 
-    def __init__(self, app):
+    def __init__(self, app, base_dir):
         super(Controller, self).__init__()
         self.app = app
         try:
-            self.puzzles = json.load(open('back_end/Data/data.json'))
+            self.puzzles = json.load(open(os.path.join(base_dir, "back_end/Data/data.json")))
         except:
             self.console_log('data.json not found!', 'error')
 
