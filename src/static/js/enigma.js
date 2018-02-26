@@ -9,9 +9,9 @@ $(function() {
 
         var click_src = $(this);
         click_src.addClass('blue');
-        var square = board.find('.number[value=' + click_src.data('key') + ']').parents('.square');
+        var square = board.find('.number[value=' + click_src.data('key') + ']').closest('.square');
         square.addClass('yellow');
-        board.find('.square[y=' + square.attr('y') + ']').not('.black').addClass('blue');
+        board.find('.square[y=' + square.attr('y') + ']').not('.square.black').addClass('blue');
     });
 
     //down listener
@@ -20,9 +20,9 @@ $(function() {
 
         var click_src = $(this);
         click_src.addClass('blue');
-        var square = board.find('.number[value=' + click_src.data('key') + ']').parents('.square');
+        var square = board.find('.number[value=' + click_src.data('key') + ']').closest('.square');
         square.addClass('yellow');
-        board.find('.square[x=' + square.attr('x') + ']').not('.black').addClass('blue');
+        board.find('.square[x=' + square.attr('x') + ']').not('.square.black').addClass('blue');
     });
 });
 
