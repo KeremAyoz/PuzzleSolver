@@ -17,8 +17,16 @@
     overflow: hidden;
 }
 
-.square.black {
+.black {
     background-color: #0f0f0f
+}
+
+.blue {
+    background-color: #a7d8ff
+}
+
+.yellow {
+    background-color: #ffda00
 }
 
 .content {
@@ -49,4 +57,8 @@
     font-size: 24px;
     top: 5%;
     left: 5%;
+}
+
+li {
+    cursor: pointer;
 }

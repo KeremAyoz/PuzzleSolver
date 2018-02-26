@@ -22,7 +22,7 @@ JSON_DATA = []
 OPTIONS = None
 
 
-def getCrossword(driver, puzzleDate, retry=0):
+def get_crossword(driver, puzzleDate, retry=0):
     # start to get puzzle
     big_json = {}
 
@@ -38,7 +38,7 @@ def getCrossword(driver, puzzleDate, retry=0):
             global MAX_RETRY
             if retry < MAX_RETRY:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retrying...(%s)" % (retry + 1))
-                return getCrossword(driver, puzzleDate, retry=retry + 1)
+                return get_crossword(driver, puzzleDate, retry=retry + 1)
             else:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retry limit exceeded, skipping.")
                 DATE_LOCK.acquire()
@@ -214,7 +214,7 @@ def is_in_list(puzzleDate):
         return False
 
 
-def driverLoop(index, file_path, retry=0):
+def driver_loop(index, file_path, retry=0):
     global CURRENT_DATE, DATE_LOCK, FILE_LOCK, OPTIONS, USERNAME, PASSWORD
     driverFailed = True
 
@@ -225,7 +225,7 @@ def driverLoop(index, file_path, retry=0):
         except:
             if retry < MAX_RETRY:
                 print("Driver " + str(index + 1) + " failed to initialize. Retrying...(%s)" % (retry + 1))
-                return driverLoop(index, retry + 1)
+                return driver_loop(index, retry + 1)
             else:
                 print("Driver " + str(index + 1) + " failed to initialize. Discarding.")
                 return
@@ -269,7 +269,7 @@ def driverLoop(index, file_path, retry=0):
             continue
 
         print("Started to fetch: " + assigned_date.strftime("%x"))
-        day_json = getCrossword(driver, assigned_date)
+        day_json = get_crossword(driver, assigned_date)
 
         # detect zombie driver
         if day_json is None:
@@ -277,7 +277,7 @@ def driverLoop(index, file_path, retry=0):
             driver.close()
             print("Driver " + str(index + 1) + " closed.")
             print("Thread " + str(index + 1) + " restarting...")
-            driverLoop(index)   # restart it
+            driver_loop(index)   # restart it
             break
 
         FILE_LOCK.acquire()
@@ -326,7 +326,7 @@ def start(file_path):
 
     # start threads here
     for x in range(0, THREAD_COUNT):
-        threads.append(threading.Thread(target=driverLoop, args=(x, file_path,)))
+        threads.append(threading.Thread(target=driver_loop, args=(x, file_path,)))
         threads[x].start()
         print("Thread " + str(x + 1) + " started.")
         time.sleep(1)

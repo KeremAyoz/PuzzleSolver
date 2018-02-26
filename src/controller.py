@@ -39,7 +39,7 @@ class Controller(htmlPy.Object):
             for x in self.puzzles:
                 if x['date'] == str(puzzle_date):
                     puzzle = x
-                    break;
+                    break
 
         # Not found
         if puzzle is None:
@@ -49,7 +49,7 @@ class Controller(htmlPy.Object):
 
     @htmlPy.Slot()
     def sync_puzzles(self):
-        self.app.evaluate_javascript("alert('Puzzles will be synced now. This process can take an hour. Please be patient. \\n\\n While puzzles are syncing, you can continue to browse saved(if any) puzzles.')");
+        self.app.evaluate_javascript("alert('Puzzles will be synced now. This process can take an hour. Please be patient.')");
         self.scrapper.start(os.path.join(self.base_dir, "back_end/Data/data.json"))
         self.puzzles = json.load(open(os.path.join(self.base_dir, "back_end/Data/data.json")))  # re-fetch puzzles to memory
         self.app.evaluate_javascript("alert('Sync process completed!')")

@@ -31,6 +31,7 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ 'js/jquery-3.3.1.min.js'|staticfile }}"></script>
         <script src="{{ 'js/bootstrap.min.js'|staticfile }}"></script>
+        <script src="{{ 'js/enigma.js'|staticfile }}"></script>
 
     </head>
     <body>
@@ -53,9 +54,9 @@
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-heading">Puzzle</div>
-                        <div class="panel-body">
+                        <div id="board" class="panel-body">
                             <!-- 5x5 grid -->
-                            <div class="square">
+                            <div x="1" y="1" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -63,7 +64,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="2" y="1"  class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -71,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="3" y="1"  class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -79,7 +80,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="4" y="1" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -87,7 +88,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="5" y="1" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -95,7 +96,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="1" y="2" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -103,7 +104,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="2" y="2" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -111,7 +112,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="3" y="2" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -119,7 +120,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="4" y="2" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -127,7 +128,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="5" y="2" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -135,7 +136,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="1" y="3" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -143,7 +144,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="2" y="3" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -151,7 +152,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="3" y="3" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -159,7 +160,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="4" y="3" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -167,7 +168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="5" y="3" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -175,7 +176,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="1" y="4" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -183,7 +184,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="2" y="4" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -191,7 +192,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="3" y="4" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -199,7 +200,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="4" y="4" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -207,7 +208,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="5" y="4" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -215,7 +216,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="1" y="5" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -223,7 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="2" y="5" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -231,7 +232,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="3" y="5" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -239,7 +240,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="4" y="5" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -247,7 +248,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="square">
+                            <div x="5" y="5" class="square">
                                 <div class="content">
                                     <span class="number"></span>
                                     <div class="table">
@@ -278,48 +279,5 @@
                 </div>
           </div>
         </div>
-        <script>
-            function initPuzzle(puzzle) {
-                /*puzzle cells*/
-                var cells = [];
-
-                //2d to 1d with trusted x,y coordinates
-                $.each(puzzle.solution_cells, function(index, item) {
-                    var trusted_index = (item.y - 1) * 5 + item.x - 1;
-                    cells[trusted_index] = {key: item.key, solution: item.solution, color: item.color};
-                });
-
-                //place them into grid
-                $.each($('.square'), function(index, element) {
-                    if (cells[index].color === "black") {
-                        $(element).addClass('black');
-                        return;
-                    }
-
-                    $(element).find('.number').text(cells[index].key);
-                    $(element).find('.table-cell').text(cells[index].solution);
-                });
-                /*--end puzzle cells*/
-
-                /*clues*/
-                //empty clue lists
-                $('#across .list-group, #down .list-group').empty();
-
-                //across clues
-                var clues = "";
-                $.each(puzzle.clues.Across, function(index, item) {
-                    clues += '<li class="list-group-item">' + item.key + ') ' + item.hint + '</li>';
-                });
-                $('#across').find('.list-group').html(clues);
-
-                //down clues
-                clues = "";
-                $.each(puzzle.clues.Down, function(index, item) {
-                    clues += '<li class="list-group-item">' + item.key + ') ' + item.hint + '</li>';
-                });
-                $('#down').find('.list-group').html(clues);
-                /*--end clues*/
-            }
-        </script>
     </body>
 </html>
