@@ -1,9 +1,7 @@
 from datetime import date, timedelta, time
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-import json
-import time
-import threading
+import json, time, threading, os
 
 # settings
 THREAD_COUNT = 6
@@ -16,23 +14,12 @@ USERNAME = "erkutalakus@gmail.com"
 PASSWORD = "ea22461016"
 
 # shared
-CURRENT_DATE = START_DATE
+CURRENT_DATE = None
 FAILED_ONES = []
 FILE_LOCK = threading.Lock()
 DATE_LOCK = threading.Lock()
 JSON_DATA = []
-try:
-    JSON_DATA = json.load(open('Data/data.json'))
-except:
-    pass    # json file not here
-
-# webdriver options
-OPTIONS = webdriver.ChromeOptions()
-if HEADLESS:
-    OPTIONS.set_headless(headless=True)
-if not VERBOSE:    
-    OPTIONS.add_argument('--log-level=3')
-OPTIONS.add_argument("--mute-audio")
+OPTIONS = None
 
 
 def getCrossword(driver, puzzleDate, retry=0):
@@ -51,7 +38,7 @@ def getCrossword(driver, puzzleDate, retry=0):
             global MAX_RETRY
             if retry < MAX_RETRY:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retrying...(%s)" % (retry + 1))
-                return getCrossword(driver, puzzleDate, retry = retry + 1)
+                return getCrossword(driver, puzzleDate, retry=retry + 1)
             else:
                 print(str(puzzleDate) + " --- Unable to fetch puzzle. Retry limit exceeded, skipping.")
                 DATE_LOCK.acquire()
@@ -227,13 +214,13 @@ def is_in_list(puzzleDate):
         return False
 
 
-def driverLoop(index, retry=0):
+def driverLoop(index, file_path, retry=0):
     global CURRENT_DATE, DATE_LOCK, FILE_LOCK, OPTIONS, USERNAME, PASSWORD
     driverFailed = True
 
     while driverFailed:
         try:
-            driver = webdriver.Chrome(chrome_options = OPTIONS)
+            driver = webdriver.Chrome(chrome_options=OPTIONS)
             driverFailed = False
         except:
             if retry < MAX_RETRY:
@@ -294,7 +281,7 @@ def driverLoop(index, retry=0):
             break
 
         FILE_LOCK.acquire()
-        append_to_json(day_json, "Data/data.json")
+        append_to_json(day_json, file_path)
         FILE_LOCK.release()
         print("Puzzle " + assigned_date.strftime("%x") + " written to file.")
 
@@ -307,31 +294,49 @@ def driverLoop(index, retry=0):
         pass    # driver already closed
 
 
-def minify(file_name="Data/data.json"):
-    file = open(file_name, "r", 1)
+def minify(file_path):
+    file = open(file_path, "r", 1)
     file_data = file.read()  # store file info in variable
     json_data = json.loads(file_data)  # store in json structure
     json_string = json.dumps(json_data, separators=(',', ":"))  # Compact JSON structure
     file.close()
-    open(file_name, "w", 1).write(json_string)  # write json_string to file
+    open(file_path, "w", 1).write(json_string)  # write json_string to file
 
 
-start_time = time.time()
-threads = []
+def start(file_path):
+    global JSON_DATA, OPTIONS, CURRENT_DATE, START_DATE
 
-# start threads here
-for x in range(0, THREAD_COUNT):
-    threads.append(threading.Thread(target=driverLoop, args=(x,)))
-    threads[x].start()
-    print("Thread " + str(x + 1) + " started.")
-    time.sleep(1)
+    CURRENT_DATE = START_DATE
 
-# wait for threads to finish their job
-for x in range(0, THREAD_COUNT):
-    threads[x].join()
+    try:
+        JSON_DATA = json.load(open(file_path))
+    except:
+        pass    # json file not here
 
-# minify the resulting json file
-# minify()
-# print("JSON file minified.")
+    # webdriver options
+    OPTIONS = webdriver.ChromeOptions()
+    if HEADLESS:
+        OPTIONS.set_headless(headless=True)
+    if not VERBOSE:
+        OPTIONS.add_argument('--log-level=3')
+    OPTIONS.add_argument("--mute-audio")
 
-print("---- Scrapper ran for %s seconds ----" % (time.time() - start_time))
+    start_time = time.time()
+    threads = []
+
+    # start threads here
+    for x in range(0, THREAD_COUNT):
+        threads.append(threading.Thread(target=driverLoop, args=(x, file_path,)))
+        threads[x].start()
+        print("Thread " + str(x + 1) + " started.")
+        time.sleep(1)
+
+    # wait for threads to finish their job
+    for x in range(0, THREAD_COUNT):
+        threads[x].join()
+
+    # minify the resulting json file
+    # minify()
+    # print("JSON file minified.")
+
+    print("---- Scrapper ran for %s seconds ----" % (time.time() - start_time))
