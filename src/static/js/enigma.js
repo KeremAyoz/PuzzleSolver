@@ -46,6 +46,7 @@ function initPuzzle(puzzle) {
 
     //place them into board
     cleanOldChoice();
+    board.find('.number').removeAttr('value');
     board.find('.square.black').removeClass('black');
     $.each(board.find('.square'), function(index, element) {
         if (cells[index].color === 'black') {

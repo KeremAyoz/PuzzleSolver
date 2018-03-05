@@ -277,7 +277,7 @@ def driver_loop(index, file_path, retry=0):
             driver.close()
             print("Driver " + str(index + 1) + " closed.")
             print("Thread " + str(index + 1) + " restarting...")
-            driver_loop(index)   # restart it
+            driver_loop(index, file_path)   # restart it
             break
 
         FILE_LOCK.acquire()
