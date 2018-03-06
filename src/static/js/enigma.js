@@ -84,6 +84,7 @@ function initPuzzle(puzzle) {
 
     //place them into board
     cleanOldChoice();
+    board.prev().html(board.prev().text().split('-')[0] + '- <b class="pull-right">' + puzzle.date + '<b>');
     board.find('.number').removeAttr('value');
     board.find('.square').attr('class', 'square');
     board.find('.table-cell').text('');
