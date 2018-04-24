@@ -35,12 +35,12 @@ class Puzzle:
             for i in range(0, element[2]):
                 curElem = self.puzzle[element[1][0] + i][element[1][1]]
                 if curElem != '1':
-                    newWordList = filter(lambda x: x[i] == curElem, newWordList)
+                    newWordList = list(filter(lambda x: x[i] == curElem, newWordList))
         else:
             for i in range(0, element[2]):
                 curElem = self.puzzle[element[1][0]][element[1][1] + i]
                 if curElem != '1':
-                    newWordList = filter(lambda x: x[i] == curElem, newWordList)
+                    newWordList = list(filter(lambda x: x[i] == curElem, newWordList))
         return newWordList
 
     def fillTheWord(self, element, word):
@@ -53,10 +53,10 @@ class Puzzle:
                 newPuzzle[element[1][0]][element[1][1] + i] = word[i]
         return newPuzzle
 
-    def makeAllPlacements(self, flag):
+    def makeAllPlacements(self, flag, procedure):
         newPuzzleStates = []
         if flag:
-            for i in range(len(self.geometry)):
+            for i in procedure:
                 if self.geometry[i][3] == 'h' and not self.geometry[i][4]:
                     currentWordList = self.constraintCheck(self.geometry[i], self.wordLists[i])
                     for word in currentWordList:
@@ -65,9 +65,8 @@ class Puzzle:
                         newGeo[i] = (self.geometry[i][0], self.geometry[i][1], self.geometry[i][2], self.geometry[i][3], True)
                         newPuzzleStates.append(Puzzle(newGeo, self.wordLists, newPuzzle))
                     break
-            flag = not flag
         else:
-            for i in range(len(self.geometry)):
+            for i in procedure:
                 if self.geometry[i][3] == 'v' and not self.geometry[i][4]:
                     currentWordList = self.constraintCheck(self.geometry[i], self.wordLists[i])
                     for word in currentWordList:
@@ -76,6 +75,5 @@ class Puzzle:
                         newGeo[i] = (self.geometry[i][0], self.geometry[i][1], self.geometry[i][2], self.geometry[i][3], True)
                         newPuzzleStates.append(Puzzle(newGeo, self.wordLists, newPuzzle))
                     break
-            flag = not flag
 
         return newPuzzleStates
