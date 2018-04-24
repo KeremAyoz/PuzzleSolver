@@ -1,7 +1,6 @@
-
+from src.back_end.SearchModuleBaseClass import SearchModuleBaseClass
 import requests
 from bs4 import BeautifulSoup
-from src.back_end.SearchModuleBaseClass import SearchModuleBaseClass
 from src.back_end.SeleniumGoogleSearchParser import parse_google_search
 
 
@@ -10,16 +9,15 @@ class SearchModule(SearchModuleBaseClass):
     def return_word_list(self, processed_query, length=None, useSelenium=False):
         word_list = set()
         if useSelenium:
-            word_list = parse_google_search(processed_query)
+            word_list = parse_google_search(processed_query, site="dictionary.com")
         else:
             query = processed_query.replace(" ", "+")
 
             r = requests.get(
-                'https://www.google.com/search?q={}'
+                'https://www.google.com/search?q={}&as_sitesearch=dictionary.com'
                 .format(query))
             soup = BeautifulSoup(r.content, "html.parser")
             result_elements = soup.text
-            print(soup.prettify())
             for word in result_elements.split():
                 word_list.add(word)
 
@@ -30,4 +28,4 @@ class SearchModule(SearchModuleBaseClass):
 
 
 if __name__ == '__main__':
-    print(SearchModule().return_word_list("Growth on old bread", 10 , useSelenium=True))
+    print(SearchModule().return_word_list("Growth on old bread", 10, useSelenium=True))
