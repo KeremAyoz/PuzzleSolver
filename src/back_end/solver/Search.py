@@ -2,24 +2,9 @@ from src.back_end.solver.Puzzle import Puzzle
 from random import randint, shuffle
 import copy
 import itertools
-<<<<<<< HEAD
-'''
-class MagneficentSolver:
-
-    def createConstraints(self):
-        constraints = []
-        across = self.geometry['Across']
-        down = self.geometry['Down']
-        for cell in self.geometry['cells']
-
-
-    def __init__(self,geometry):
-        self.geometry = geometry
-'''
-=======
 import threading
 import pprint
->>>>>>> 03dfaa81207a987142b570d6fbb2d1b480d0a493
+
 
 class DFS:
 
