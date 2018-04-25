@@ -10,7 +10,7 @@ from src.back_end.thesarus_module.search_module import SearchModule as thesarus_
 todays = Puzzle(geo, wordLists, puzzle)
 todaysSolved = Puzzle(geo, wordLists, puzzleSolved)
 s = DFS()
-solutions = s.depth_firts_search(todays, todaysSolved)
+solutions = s.threading_wrap(todays, todaysSolved)
 for solution in solutions:
     print(solution)
 
