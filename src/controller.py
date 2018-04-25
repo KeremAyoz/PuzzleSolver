@@ -1,5 +1,6 @@
 from datetime import datetime
 import os, sys, json, htmlPy
+import src.back_end.solver.Solve as solver
 
 
 class Controller(htmlPy.Object):
@@ -76,5 +77,5 @@ class Controller(htmlPy.Object):
             self.app.evaluate_javascript("alert('Select a puzzle first!')")
 
         self.app.evaluate_javascript("clear_to_solve()")
-        #TODO pass cur_date and self to solve
-        pass
+
+        solver.solve(self.set_puzzle_as, self.cur_date)

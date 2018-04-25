@@ -8,11 +8,12 @@ import pprint
 
 class DFS:
 
-    def __init__(self):
+    def __init__(self, callback):
         self.bests = [[]]*10
         self.queue = [[]]*10
         self.threads = []
         self.procedure = [0,1,2,3,4,5,6,7,8,9]
+        self.callback = callback
         # shuffle(self.procedure)
     # Store all paths visited in queue
 
@@ -37,7 +38,7 @@ class DFS:
 
                 # Select randomly
                 stateWillBeExpanded = self.queue[id][0][-1]
-                #print(stateWillBeExpanded)
+                self.callback(stateWillBeExpanded)
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")
