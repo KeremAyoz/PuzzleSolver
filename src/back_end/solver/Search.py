@@ -28,6 +28,7 @@ class DFS:
         return list(itertools.chain.from_iterable(self.bests))
 
     def depth_firts_search(self, start, goal, id):
+        counter = 0
         # Form a one element queue consisting of start
         self.queue[0].insert(0, [start])
         flag = True
@@ -38,7 +39,10 @@ class DFS:
 
                 # Select randomly
                 stateWillBeExpanded = self.queue[id][0][-1]
-                self.callback(stateWillBeExpanded)
+                if id == 0:
+                    counter = counter + 1
+                    if counter % 50 == 0:
+                        self.callback.set_puzzle_as(stateWillBeExpanded.puzzle)
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")

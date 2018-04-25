@@ -1,7 +1,7 @@
 from datetime import datetime
 import os, sys, json, htmlPy
 import src.back_end.solver.Solve as solver
-
+import threading
 
 class Controller(htmlPy.Object):
 
@@ -69,7 +69,9 @@ class Controller(htmlPy.Object):
 
     @htmlPy.Slot(list)
     def set_puzzle_as(self, puzzle):
-        self.app.evaluate_javascript("set_puzzle_as(" + json.dumps(puzzle)  + ")")
+        print('Im here')
+        print(puzzle)
+        self.app.evaluate_javascript("set_puzzle_as(" + json.dumps(puzzle) + ")")
 
     @htmlPy.Slot()
     def start_to_solve(self):
@@ -77,5 +79,9 @@ class Controller(htmlPy.Object):
             self.app.evaluate_javascript("alert('Select a puzzle first!')")
 
         self.app.evaluate_javascript("clear_to_solve()")
-
-        solver.solve(self.set_puzzle_as, self.cur_date)
+        date = ""
+        elements = list(str(self.cur_date).split("-"))
+        date += elements[0] + "-" + elements[1] + "-" + elements[2]
+        print(date)
+        thread = threading.Thread(target=solver.solve, args=(self, date,))
+        thread.start()
