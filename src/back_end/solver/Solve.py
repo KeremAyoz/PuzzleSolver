@@ -191,7 +191,7 @@ def solve(callback, date):
     todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
 
     s = DFS()
-    solutions = s.depth_firts_search(todays, todaysSolved)
+    solutions = s.threading_wrap(todays, todaysSolved)
 
     for solution in sorted(solutions, key=lambda x: countSolved(x)):
         print(solution)
