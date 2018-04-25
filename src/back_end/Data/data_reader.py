@@ -11,5 +11,10 @@ def read_full_data():
     return data_json
 
 
-def read_data_from_date():
-    raise NotImplementedError
+def read_data_from_date(date="2014-08-27"):
+    full_data = read_full_data()
+    for puzzle in full_data:
+        if puzzle['date'] == date:
+            return puzzle
+
+    raise ValueError

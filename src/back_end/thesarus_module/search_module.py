@@ -23,7 +23,7 @@ class SearchModule(SearchModuleBaseClass):
                 antns = instance.get_antonym()
                 word_list = word_list.union(syns, antns)
 
-        return word_list
+        return list(filter(lambda x: len(x) == length, word_list))
 
 
 if __name__ == '__main__':

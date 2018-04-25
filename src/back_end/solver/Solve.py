@@ -1,70 +1,199 @@
+from src.back_end.Data.data_reader import read_data_from_date
+from src.back_end.dictionary_search_module.search_module import SearchModule as dict_search_module
+from src.back_end.google_search_module.search_module import SearchModule as google_search_module
 from src.back_end.solver.Puzzle import Puzzle
 from src.back_end.solver.Search import DFS
-from src.back_end.google_search_module.search_module import SearchModule as GSM
-from random import randint
-import copy
+from src.back_end.wikipedia_search_module.SearchModule import SearchModule as wiki_search_module
+from src.back_end.thesarus_module.search_module import SearchModule as thesarus_search_module
 
-# Puzzle of 24.04.18
-q1 = (1, (0, 1), 4, 'h', False)
-q2 = (1, (0, 1), 5, 'v', False)
-q3 = (2, (0, 2), 5, 'v', False)
-q4 = (3, (0, 3), 5, 'v', False)
-q5 = (4, (0, 4), 4, 'v', False)
-q6 = (5, (1, 0), 5, 'h', False)
-q7 = (5, (1, 0), 4, 'v', False)
-q8 = (6, (2, 0), 5, 'h', False)
-q9 = (7, (3, 0), 5, 'h', False)
-q10 = (8, (4, 0), 4, 'h', False)
-geo = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
-
-# Word Lists
 '''
-l1 = ["cant", "tent", "even", "fore", "brut", "base", "band", "halt", "hand", "list", "dirk", "raul", "mesa", "bhaq", "doer", "lyes"]
-l2 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l3 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l4 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l5 = ["cant", "tent", "even", "fore", "brut", "base", "band", "halt", "hand", "list", "dirk", "raul", "mesa", "bhaq", "doer", "lyes"]
-l6 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l7 = ["cant", "tent", "even", "fore", "brut", "base", "band", "halt", "hand", "list", "dirk", "raul", "mesa", "bhaq", "doer", "lyes"]
-l8 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l9 = ["basic", "ratio", "value", "radio", "alone", "arive", "tuple", "state", "handy", "quart", "table", "poker", "balmy", "umber", "adobe", "nines"]
-l10 = ["cant", "tent", "even", "fore", "brut", "base", "band", "halt", "hand", "list", "dirk", "raul", "mesa", "bhaq", "doer", "lyes"]
-
-wordLists = [l1, l2, l3, l4, l5, l6, l7, l8, l9, l10]
-'''
-# Puzzle, 0 means black block, 1 means white block
-puzzle = [['0', '1', '1', '1', '1'], ['1', '1', '1', '1', '1'], ['1', '1', '1', '1', '1'], ['1', '1', '1', '1', '1'], ['1', '1', '1', '1', '0']]
-
-puzzleSolved = [['0', 'b', 'a', 'n', 'd'], ['r', 'a', 'd', 'i', 'o'], ['a', 'l', 'o', 'n', 'e'], ['u', 'm', 'b', 'e', 'r'], ['l', 'y', 'e', 's', '0']]
-# Built todays puzzle
-
-clues_accross = ["Pink floyd or Maroon 5", "Communicate between squad cars", "All by oneself", "Reddish-brown", "Corrosive cleaning compounds"]
-clues_down = ["Pleasantly warm, as weather", "Maker of Flash Player and Photoshop", "Golf course halves", "Someone who isn't just all talk", "Castro who recently as Cuban president"]
-l1 = GSM().return_word_list(clues_accross[0], length=4, useSelenium=True)
-# l1.append("band")
-l2 = GSM().return_word_list(clues_down[0], length=5, useSelenium=True)
-# l2.append("balmy")
-l3 = GSM().return_word_list(clues_down[1], length=5, useSelenium=True)
-# l3.append("adobe")
-l4 = GSM().return_word_list(clues_down[2], length=5, useSelenium=True)
-# l4.append("nines")
-l5 = GSM().return_word_list(clues_down[3], length=4, useSelenium=True)
-# l5.append("doer")
-l6 = GSM().return_word_list(clues_accross[1], length=5, useSelenium=True)
-# l6.append("radio")
-l7 = GSM().return_word_list(clues_down[4], length=4, useSelenium=True)
-# l7.append("raul")
-l8 = GSM().return_word_list(clues_accross[2], length=5, useSelenium=True)
-# l8.append("alone")
-l9 = GSM().return_word_list(clues_accross[3], length=5, useSelenium=True)
-#l9.append("umber")
-l10 = GSM().return_word_list(clues_accross[4], length=4, useSelenium=True)
-l10.append("lyes")
-wordLists = [l1, l2, l3, l4, l5, l6, l7, l8, l9, l10]
-print(wordLists)
 todays = Puzzle(geo, wordLists, puzzle)
 todaysSolved = Puzzle(geo, wordLists, puzzleSolved)
 s = DFS()
 solutions = s.depth_firts_search(todays, todaysSolved)
 for solution in solutions:
     print(solution)
+
+'''
+def getGeometryFromJson(json):
+
+    def searchCell(cells, key):
+        for cell in cells:
+            if cell['key'] == key:
+                return cell['y'] - 1 , cell['x'] - 1
+
+    solutions = json['solutions']
+    geometry = []
+    cells = json['cells']
+    for direction in solutions:
+        for solutionKey, solutionValue in solutions[direction].items():
+            length = len(solutionValue)
+            d = 'h'
+            if direction == "Down":
+                d = 'v'
+            indices = searchCell(cells,solutionKey)
+            geometry.append((solutionKey, indices, length, d , False))
+
+    return geometry
+
+
+def getConstraintsFromGeometry(geometry):
+
+    def checkIntersection(geo1index, geo1, geo2index, geo2):
+        if geo1[3] == geo2[3]:
+            return None
+        else:
+            horizontal = geo2
+            horizontal_index = geo2index
+            vertical = geo1
+            vertical_index = geo1index
+            if geo1[3] == 'h':
+                horizontal = geo1
+                horizontal_index = geo1index
+                vertical = geo2
+                vertical_index = geo2index
+
+            horizontal_coordinates = []
+            vertical_coordinates = []
+            for x in range(horizontal[2]):
+                horizontal_coordinates.append((horizontal[1][0], horizontal[1][1] + x))
+            for y in range(vertical[2]):
+                vertical_coordinates.append((vertical[1][0]+ y, vertical[1][1]))
+
+            crossing = [value for value in horizontal_coordinates if value in vertical_coordinates]
+            # crossing = list((set(horizontal_coordinates).intersection(set(vertical_coordinates))))
+            if len(crossing) == 0:
+                return None
+
+            intersection_x = abs(horizontal[1][0] - crossing[0][0])
+            intersection_y = abs(vertical[1][1] - crossing[0][1])
+            return (horizontal_index, intersection_x), (vertical_index, intersection_y)
+
+    constraints = []
+    for i in range(len(geometry)):
+        for j in range(i+1, len(geometry)):
+            if i != j:
+                g1 = geometry[i]
+                g2 = geometry[j]
+                intersection = checkIntersection(i, g1, j, g2)
+                if intersection:
+                    constraints.append(intersection)
+
+    return constraints
+
+
+def getClues(puzzle_json, geometry):
+    unordered_clues = puzzle_json['clues']
+    ordered_clues = []
+    for geo in geometry:
+        if geo[3] == 'h':
+            for clue in unordered_clues['Across']:
+                if clue['key'] == geo[0]:
+                    ordered_clues.append(clue['hint'])
+        else:
+            for clue in unordered_clues['Down']:
+                if clue['key'] == geo[0]:
+                    ordered_clues.append(clue['hint'])
+    return ordered_clues
+
+
+def reduceLists(constraints, wordLists):
+    isChanged = True
+    while isChanged:
+        for everyConstraint in constraints:
+            reducedSecond = set()
+            for everyWord in wordLists[everyConstraint[0][0]]:
+                # Reduced version of second by looking to first
+                sec = list(filter(lambda x: x[everyConstraint[1][1]] == everyWord[everyConstraint[0][1]],
+                                  wordLists[everyConstraint[1][0]]))
+                # Add the new items to set
+                for item in sec:
+                    reducedSecond.add(item)
+            # Equate the reduced version to actual list
+            if set(wordLists[everyConstraint[1][0]]) == set(list(reducedSecond)):
+                isChanged = False
+            wordLists[everyConstraint[1][0]] = list(reducedSecond)
+
+            reducedFirst = set()
+            for everyWord in wordLists[everyConstraint[1][0]]:
+                # Reduced version of second by looking to first
+                fir = list(filter(lambda x: x[everyConstraint[0][1]] == everyWord[everyConstraint[1][1]],
+                                  wordLists[everyConstraint[0][0]]))
+                if fir != wordLists[everyConstraint[1][0]]:
+                    isChanged = True
+                # Add the new items to set
+                for item in fir:
+                    reducedFirst.add(item)
+                # Equate the reduced version to actual list
+            if set(wordLists[everyConstraint[0][0]]) == set(list(reducedFirst)):
+                isChanged = False
+            wordLists[everyConstraint[0][0]] = list(reducedFirst)
+    return wordLists
+def puzzleTo2DArray(puzzle_json):
+    array = [['1', '1', '1', '1', '1'],
+             ['1', '1', '1', '1', '1'],
+             ['1', '1', '1', '1', '1'],
+             ['1', '1', '1', '1', '1'],
+             ['1', '1', '1', '1', '1'] ]
+
+    for cell in puzzle_json['cells']:
+        if cell['color'] == 'black':
+            array[cell['y'] - 1][cell['x'] - 1] = '0'
+    return array
+
+
+def puzzleToSolvedPuzzle(puzzle_json):
+    array = [['0', '0', '0', '0', '0'],
+             ['0', '0', '0', '0', '0'],
+             ['0', '0', '0', '0', '0'],
+             ['0', '0', '0', '0', '0'],
+             ['0', '0', '0', '0', '0']]
+
+    for cell in puzzle_json['solution_cells']:
+        if cell['color'] != 'black':
+            array[cell['y'] - 1][cell['x'] - 1] = cell['solution'].lower()
+
+    return array
+
+
+def countSolved(array):
+    count = 0
+    for i in range(len(array)):
+        for j in range(len(array[i])):
+            if array[i][j] != '1' and array[i][j] != '0':
+                count += 1
+    return count
+
+
+def solve(callback, date):
+    puzzle_json = read_data_from_date(date)
+    geometry = getGeometryFromJson(puzzle_json)
+    constraints = getConstraintsFromGeometry(geometry)
+    clues = getClues(puzzle_json,geometry)
+
+    wordLists = []
+    tsm = thesarus_search_module()
+    gsm = google_search_module()
+    dsm = dict_search_module()
+    wsm = wiki_search_module()
+    i = 0
+    for clue in clues:
+        word_list = set(tsm.return_word_list(clue))
+        word_list = word_list.union(
+            gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
+        )
+        wordLists.append(word_list)
+        i += 1
+    wordLists = reduceLists(constraints, wordLists)
+    todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
+    todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
+
+    s = DFS()
+    solutions = s.depth_firts_search(todays, todaysSolved)
+
+    for solution in sorted(solutions, key=lambda x: countSolved(x)):
+        print(solution)
+
+    return wordLists

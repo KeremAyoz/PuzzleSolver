@@ -14,18 +14,17 @@ class SearchModule(SearchModuleBaseClass):
             query = processed_query.replace(" ", "+")
 
             r = requests.get(
-                'https://www.google.com/search?q={}&as_sitesearch=dictionary.com'
+                'https://www.google.com/search?q={}&as_sitesearch=dictionary.com&lr=lang_en'
                     .format(query))
             soup = BeautifulSoup(r.content, "html.parser")
             result_elements = soup.text
-            print(soup.prettify())
             for word in result_elements.split():
                 word_list.add(word)
 
         # Process word list
         word_list = self.clear_word_list(word_list)
         print("found word count: " + str(len(word_list)))
-        return word_list
+        return list(filter(lambda x: len(x) == length, word_list))
 
 
 if __name__ == '__main__':

@@ -2,7 +2,19 @@ from src.back_end.solver.Puzzle import Puzzle
 from random import randint, shuffle
 import copy
 import itertools
+'''
+class MagneficentSolver:
 
+    def createConstraints(self):
+        constraints = []
+        across = self.geometry['Across']
+        down = self.geometry['Down']
+        for cell in self.geometry['cells']
+
+
+    def __init__(self,geometry):
+        self.geometry = geometry
+'''
 
 class DFS:
 
@@ -32,6 +44,7 @@ class DFS:
 
                 # Expand the state with min score
                 newStates = stateWillBeExpanded.makeAllPlacements(flag, procedure)
+                print(stateWillBeExpanded)
                 if len(newStates) > 0:
                     if flag:
                         flag = False

@@ -16,11 +16,10 @@ class SearchModule(SearchModuleBaseClass):
             query = processed_query.replace(" ", "+")
 
             r = requests.get(
-                'https://www.google.com/search?q={}'
+                'https://www.google.com/search?q={}&lr=lang_en'
                 .format(query))
             soup = BeautifulSoup(r.content, "html.parser")
             result_elements = soup.text
-            print(soup.prettify())
             for word in result_elements.split():
                 word_list.add(word)
 
