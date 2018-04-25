@@ -2,33 +2,46 @@ from src.back_end.solver.Puzzle import Puzzle
 from random import randint, shuffle
 import copy
 import itertools
-
+import threading
+import pprint
 
 class DFS:
 
     def __init__(self):
-        self.bests = []
-        self.queue = []
+        self.bests = [[]]*10
+        self.queue = [[]]*10
+        self.threads = []
         self.procedure = [0,1,2,3,4,5,6,7,8,9]
         # shuffle(self.procedure)
     # Store all paths visited in queue
 
-    def depth_firts_search(self, start, goal):
+    def threading_wrap(self, start, goal):
+        for i in range(10):
+            self.threads.append(threading.Thread(target=self.depth_firts_search, args=(start, goal, i,)))
+            self.threads[i].start()
+
+        for i in range(10):
+            self.threads[i].join()
+
+        return list(itertools.chain.from_iterable(self.bests))
+
+    def depth_firts_search(self, start, goal, id):
         # Form a one element queue consisting of start
-        self.queue.insert(0, [start])
+        self.queue[0].insert(0, [start])
         flag = True
         # While queue is not empty
-        allProcedures = list(itertools.permutations(self.procedure))
+        allProcedures = list(itertools.permutations(self.procedure[id:] + self.procedure[:id]))
         for procedure in allProcedures:
-            while(self.queue):
+            while(self.queue[id]):
 
                 # Select randomly
-                stateWillBeExpanded = self.queue[0][-1]
+                stateWillBeExpanded = self.queue[id][0][-1]
+                #print(stateWillBeExpanded)
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
-                    print("Success: " + str(self.queue[0]) + "\n")
-                    self.bests.append(self.queue[0][-1])
-                    return self.bests
+                    print("Success: " + str(self.queue[id][0]) + "\n")
+                    self.bests[id].append(self.queue[id][0][-1])
+                    return self.bests[id]
 
                 # Expand the state with min score
                 newStates = stateWillBeExpanded.makeAllPlacements(flag, procedure)
@@ -38,7 +51,7 @@ class DFS:
                     else:
                         flag = True
                 else:
-                    self.bests.append(stateWillBeExpanded)
+                    self.bests[id].append(stateWillBeExpanded)
 
                 # Remove the cycling paths
                 '''
@@ -47,10 +60,10 @@ class DFS:
                         newStates.remove(a)
                 '''
 
-                firstPath = copy.deepcopy(self.queue[0])
+                firstPath = copy.deepcopy(self.queue[id][0])
 
                 # Delete the first path in queue
-                del self.queue[0]
+                del self.queue[id][0]
 
                 # Add the newly expanded paths
                 for states in newStates:
@@ -58,6 +71,6 @@ class DFS:
                     # Build the new paths with newStates in the terminal position
                     expandedPath = copy.deepcopy(firstPath)
                     expandedPath.append(states)
-                    self.queue.insert(0, expandedPath)
+                    self.queue[id].insert(0, expandedPath)
 
         return self.bests
