@@ -7,6 +7,7 @@ class Controller(htmlPy.Object):
     puzzles = None
     scrapper = None
     base_dir = None
+    cur_date = None
 
     def __init__(self, app, base_dir):
         super(Controller, self).__init__()
@@ -46,6 +47,7 @@ class Controller(htmlPy.Object):
             self.app.evaluate_javascript("alert('Sorry, Puzzle not fetched yet!')");
             return
         self.app.evaluate_javascript("initPuzzle(" + json.dumps(puzzle) + ")")
+        self.cur_date = puzzle_date
 
     @htmlPy.Slot()
     def sync_puzzles(self):
@@ -63,3 +65,16 @@ class Controller(htmlPy.Object):
             print(str(datetime.now().time()) + "[ERROR] " + log)
         else:
             print(str(datetime.now().time()) + "[UNKNOWN] " + log)
+
+    @htmlPy.Slot(list)
+    def set_puzzle_as(self, puzzle):
+        self.app.evaluate_javascript("set_puzzle_as(" + json.dumps(puzzle)  + ")")
+
+    @htmlPy.Slot()
+    def start_to_solve(self):
+        if (self.cur_date is None):
+            self.app.evaluate_javascript("alert('Select a puzzle first!')")
+
+        self.app.evaluate_javascript("clear_to_solve()")
+        #TODO pass cur_date and self to solve
+        pass

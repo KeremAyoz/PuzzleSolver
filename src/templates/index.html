@@ -256,7 +256,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="pull-right"><button id="check" class="btn btn-primary" onclick="checkPuzzle()">Check Your Answers</button></div>
+                            <div class="pull-right">
+                                <form class="form-inline" action="Controller.start_to_solve" id="solve_form" data-bind="true">
+                                    <input class="btn btn-success" type="submit" value="Let PuzzleSolver solve it!" id="solve_form_submit">
+                                </form>
+                                <button id="check" class="btn btn-primary" onclick="checkPuzzle()">Check Your Answers</button></div>
                         </div>
                     </div>
                 </div>
