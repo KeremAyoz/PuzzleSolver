@@ -1,3 +1,4 @@
+import itertools
 from random import randint
 import copy
 
@@ -52,6 +53,30 @@ class Puzzle:
             for i in range(0, element[2]):
                 newPuzzle[element[1][0]][element[1][1] + i] = word[i]
         return newPuzzle
+
+    def orderProcedure(self):
+        #Get horizontals
+        hori = []
+        verti = []
+        for i in range(len(self.geometry)):
+            if self.geometry[i][3] == 'h':
+                hori.append(i)
+            else:
+                verti.append(i)
+        allNewProcedures = []
+        allHori = list(itertools.permutations(hori))
+        allVerti = list(itertools.permutations(verti))
+        for h in allHori:
+            for v in allVerti:
+                newPros = []
+                #Combine arrays alternating order
+                for i in range(10):
+                    if i % 2 == 0:
+                        newPros.append(hori[i/2])
+                    else:
+                        newPros.append(verti[i/2])
+            allNewProcedures.append(newPros)
+        return allNewProcedures
 
     def makeAllPlacements(self, flag, procedure):
         newPuzzleStates = []
