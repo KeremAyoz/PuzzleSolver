@@ -16,8 +16,14 @@ def parse_google_search(query, site=None):
 
     search_bar.send_keys(Keys.ENTER)
     driver.get(driver.current_url + "&lr=lang_en")
-    result_elements = driver.find_elements_by_class_name("st")
-    for elem in result_elements:
+
+    # result_elements = driver.find_elements_by_class_name("st")
+    # for elem in result_elements:
+    #     for word in elem.text.split():
+    #         word_list.add(word)
+
+    result_headers = driver.find_elements_by_class_name("r")
+    for elem in result_headers:
         for word in elem.text.split():
             word_list.add(word)
 
