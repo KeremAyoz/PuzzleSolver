@@ -17,7 +17,6 @@ class DFS:
         # shuffle(self.procedure)
     # Store all paths visited in queue
 
-
     def threading_wrap(self, start, goal):
         for i in range(10):
             self.threads.append(threading.Thread(target=self.depth_firts_search, args=(start, goal, i,)))
@@ -31,41 +30,54 @@ class DFS:
     def depth_firts_search(self, start, goal, id):
         counter = 0
         # Form a one element queue consisting of start
-        self.queue[0].insert(0, start)
+        self.queue[0].insert(0, [start])
         flag = True
         # While queue is not empty
-        allProcedures = start.orderProcedure()
+        allProcedures = list(itertools.permutations(self.procedure[id:] + self.procedure[:id]))
         for procedure in allProcedures:
-            print(procedure)
             while(self.queue[id]):
 
                 # Select randomly
-                stateWillBeExpanded = self.queue[id][0]
-                '''
+                stateWillBeExpanded = self.queue[id][0][-1]
                 if id == 0:
                     counter = counter + 1
                     if counter % 50 == 0:
                         self.callback.set_puzzle_as(stateWillBeExpanded.puzzle)
-                        '''
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")
-                    self.bests[id].append(self.queue[id][0])
+                    self.bests[id].append(self.queue[id][0][-1])
                     return self.bests[id]
 
                 # Expand the state with min score
                 newStates = stateWillBeExpanded.makeAllPlacements(flag, procedure)
-                #print(stateWillBeExpanded)
+                print(stateWillBeExpanded)
                 if len(newStates) > 0:
-                    flag = not flag
+                    if flag:
+                        flag = False
+                    else:
+                        flag = True
                 else:
                     self.bests[id].append(stateWillBeExpanded)
+
+                # Remove the cycling paths
+                '''
+                for a in newStates:
+                    if a in self.queue[0]:
+                        newStates.remove(a)
+                '''
+
+                firstPath = copy.deepcopy(self.queue[id][0])
 
                 # Delete the first path in queue
                 del self.queue[id][0]
 
                 # Add the newly expanded paths
                 for states in newStates:
-                    self.queue[id].insert(0, states)
+
+                    # Build the new paths with newStates in the terminal position
+                    expandedPath = copy.deepcopy(firstPath)
+                    expandedPath.append(states)
+                    self.queue[id].insert(0, expandedPath)
 
         return self.bests
