@@ -1,5 +1,8 @@
 from datetime import datetime
 import os, sys, json, htmlPy
+from random import randint
+import time
+
 import src.back_end.solver.Solve as solver
 import threading
 
@@ -31,6 +34,7 @@ class Controller(htmlPy.Object):
     def get_puzzle(self, json_data):
         if (json.loads(json_data)['date'] == "today"):
             puzzle_date = datetime.today().date()
+            time.sleep(randint(5, 9))
         else:
             # Check date
             puzzle_date = datetime.strptime(json.loads(json_data)['date'], "%d-%m-%Y").date()
@@ -89,4 +93,3 @@ class Controller(htmlPy.Object):
         print(date)
         thread = threading.Thread(target=solver.solve, args=(self, date,))
         thread.start()
-        self.set_puzzle_as([["0", "0", "p", "o", "t"], ["a", "d", "e", "p", "t"], ["t", "i", "n", "g", "e"], ["p", "l", "a", "t", "e"], ["l", "o", "w", "0", "0"]])
