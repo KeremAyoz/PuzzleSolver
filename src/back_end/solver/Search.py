@@ -42,7 +42,7 @@ class DFS:
                 if id == 0:
                     counter = counter + 1
                     if counter % 50 == 0:
-                        self.callback.set_puzzle_as(stateWillBeExpanded.puzzle)
+                        self.callback[0].set_puzzle_as(stateWillBeExpanded.puzzle)
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")

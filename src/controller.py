@@ -91,5 +91,5 @@ class Controller(htmlPy.Object):
         elements = list(str(self.cur_date).split("-"))
         date += elements[0] + "-" + elements[1] + "-" + elements[2]
         print(date)
-        thread = threading.Thread(target=solver.solve, args=(self, date,))
+        thread = threading.Thread(target=solver.solve, args=([self], date,))
         thread.start()
