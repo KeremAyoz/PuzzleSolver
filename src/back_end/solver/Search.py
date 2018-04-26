@@ -17,6 +17,14 @@ class DFS:
         # shuffle(self.procedure)
     # Store all paths visited in queue
 
+    def countSolved(array):
+        count = 0
+        for i in range(len(array)):
+            for j in range(len(array[i])):
+                if array[i][j] != '1' and array[i][j] != '0':
+                    count += 1
+        return count
+
     def threading_wrap(self, start, goal):
         for i in range(10):
             self.threads.append(threading.Thread(target=self.depth_firts_search, args=(start, goal, i,)))
@@ -25,7 +33,7 @@ class DFS:
         for i in range(10):
             self.threads[i].join()
 
-        return list(itertools.chain.from_iterable(self.bests))
+        return list(sorted(self.bests, key=lambda x: self.countSolved(x.puzzle)))[0]
 
     def depth_firts_search(self, start, goal, id):
         # Form a one element queue consisting of start
