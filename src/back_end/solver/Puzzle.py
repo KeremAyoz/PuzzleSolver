@@ -1,6 +1,8 @@
 from random import randint
 import copy
 
+import itertools
+
 
 class Puzzle:
 

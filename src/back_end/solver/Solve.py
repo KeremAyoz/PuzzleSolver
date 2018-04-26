@@ -182,13 +182,16 @@ def solve(callback, date):
     for clue in clues:
         word_list = set(tsm.return_word_list(clue))
         word_list = word_list.union(
-            gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            gsm.return_word_list(clue, length=geometry[i][2], useSelenium=True),
             datamuse.return_word_list(clue, length=geometry[i][2]),
-            dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
-            wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
+            #dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            #wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
         )
         wordLists.append(word_list)
         i += 1
+    print("DEFAULT")
+    for e in wordLists:
+        print(e)
 
     wordLists = reduceLists(constraints, wordLists)
     # for i in range(10):
@@ -233,7 +236,9 @@ def solve(callback, date):
             wordLists[i].append("vying")
             wordLists[i].append("emoji")
             '''
-
+    print("REDUCED")
+    for e in wordLists:
+        print(e)
     todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
     todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
 
