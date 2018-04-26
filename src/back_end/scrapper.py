@@ -4,9 +4,9 @@ from selenium.common.exceptions import NoSuchElementException
 import json, time, threading, os
 
 # settings
-THREAD_COUNT = 6
+THREAD_COUNT = 1
 MAX_RETRY = 3
-HEADLESS = True
+HEADLESS = False
 VERBOSE = False
 START_DATE = date(2014, 8, 21)      # included
 END_DATE = date.today()             # included
@@ -239,7 +239,7 @@ def driver_loop(index, file_path, retry=0):
     username.send_keys(USERNAME)
     password.send_keys(PASSWORD)
     driver.find_element_by_id("submitButton").click()
-    time.sleep(10)  # wait some to login
+    time.sleep(60)  # wait some to login and solve captcha
 
     print("Thread " + str(index + 1) + " successfully logged in.")
 
