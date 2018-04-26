@@ -3,7 +3,7 @@ var sol_board;
 //listeners
 $(function() {
     board = $('#board');
-    sol_board = $('#solution')
+    sol_board = $('#solution');
 
     //across listener
     $('#across').on('click', 'li', function () {
@@ -153,13 +153,13 @@ function checkPuzzle() {
 
 function set_puzzle_as(puzzle) {
     console.log('Im also here');
-    console.log(puzzle.toString());
+    console.log(puzzle);
     $.each($('#board').find('.square'), function(index, element) {
         var x = Math.floor(index / 5);
         var y = index % 5;
-        if (puzzle[x][y] === 1) {
+        if (puzzle[x][y] === "1") {
             $(this).find('.table-cell').text('');
-        } else if (puzzle[x][y] !== 0) {
+        } else if (puzzle[x][y] !== "0") {
             $(this).find('.table-cell').text(puzzle[x][y]);
         }
 

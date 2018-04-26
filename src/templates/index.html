@@ -47,6 +47,11 @@
                     <input class="btn btn-primary" type="submit" value="Sync Puzzles Now!" id="sync_form_submit">
                 </form>
             </div>
+            <hr/>
+            <form class="form-inline" action="Controller.get_puzzle" id="today_form" data-bind="true">
+                <input type="hidden" id="today_input" name="date" value="today">
+                <input class="btn btn-danger" type="submit" value="Get Today's Puzzle!" id="today_form_submit">
+            </form>
         </div>
         <div class="container">
             <div class="row">
