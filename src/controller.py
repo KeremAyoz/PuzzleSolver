@@ -29,8 +29,12 @@ class Controller(htmlPy.Object):
 
     @htmlPy.Slot(str)
     def get_puzzle(self, json_data):
-        # Check date
-        puzzle_date = datetime.strptime(json.loads(json_data)['date'], "%d-%m-%Y").date()
+        if (json.loads(json_data)['date'] == "today"):
+            puzzle_date = datetime.today().date()
+        else:
+            # Check date
+            puzzle_date = datetime.strptime(json.loads(json_data)['date'], "%d-%m-%Y").date()
+
         if puzzle_date.weekday() == 5:
             self.app.evaluate_javascript("alert('You cannot get this puzzle because, it\\'s SATURDAY!')");
             return
@@ -70,7 +74,7 @@ class Controller(htmlPy.Object):
     @htmlPy.Slot(list)
     def set_puzzle_as(self, puzzle):
         print('Im here')
-        print(puzzle)
+        print(json.dumps(puzzle))
         self.app.evaluate_javascript("set_puzzle_as(" + json.dumps(puzzle) + ")")
 
     @htmlPy.Slot()
@@ -85,3 +89,4 @@ class Controller(htmlPy.Object):
         print(date)
         thread = threading.Thread(target=solver.solve, args=(self, date,))
         thread.start()
+        self.set_puzzle_as([["0", "0", "p", "o", "t"], ["a", "d", "e", "p", "t"], ["t", "i", "n", "g", "e"], ["p", "l", "a", "t", "e"], ["l", "o", "w", "0", "0"]])
