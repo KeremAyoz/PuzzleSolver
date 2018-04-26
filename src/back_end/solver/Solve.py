@@ -5,6 +5,7 @@ from src.back_end.solver.Puzzle import Puzzle
 from src.back_end.solver.Search import DFS
 from src.back_end.wikipedia_search_module.SearchModule import SearchModule as wiki_search_module
 from src.back_end.thesarus_module.search_module import SearchModule as thesarus_search_module
+from src.back_end.datamuse.search_module import SearchModule as datamuse_seacrh
 
 '''
 todays = Puzzle(geo, wordLists, puzzle)
@@ -176,24 +177,71 @@ def solve(callback, date):
     gsm = google_search_module()
     dsm = dict_search_module()
     wsm = wiki_search_module()
+    datamuse = datamuse_seacrh()
     i = 0
     for clue in clues:
         word_list = set(tsm.return_word_list(clue))
         word_list = word_list.union(
             gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            datamuse.return_word_list(clue, length=geometry[i][2]),
             dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
             wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
         )
         wordLists.append(word_list)
         i += 1
+
     wordLists = reduceLists(constraints, wordLists)
+    # for i in range(10):
+    #     wordLists[i] = wordLists[i][:30]
+    for e in wordLists:
+        print(len(e))
+
+    for i in range(len(wordLists)):
+        if len(wordLists[i][0]) == 4:
+            if "roma" in wordLists[i]:
+                print(str(i) + " contains roma")
+            if "wing" in wordLists[i]:
+                print(str(i) + " contains wing")
+            if "gigi" in wordLists[i]:
+                print(str(i) + " contains gigi")
+            if "rver" in wordLists[i]:
+                print(str(i) + " contains rver")
+            '''
+            wordLists[i].append("roma")
+            wordLists[i].append("wing")
+            wordLists[i].append("gigi")
+            wordLists[i].append("rver")
+            '''
+        else:
+            if "waymo" in wordLists[i]:
+                print(str(i) + " contains waymo")
+            if "idiom" in wordLists[i]:
+                print(str(i) + " contains idiom")
+            if "ninja" in wordLists[i]:
+                print(str(i) + " contains ninja")
+            if "radii" in wordLists[i]:
+                print(str(i) + " contains radii")
+            if "vying" in wordLists[i]:
+                print(str(i) + " contains vying")
+            if "emoji" in wordLists[i]:
+                print(str(i) + " contains emoji")
+            '''
+            wordLists[i].append("waymo")
+            wordLists[i].append("idiom")
+            wordLists[i].append("ninja")
+            wordLists[i].append("radii")
+            wordLists[i].append("vying")
+            wordLists[i].append("emoji")
+            '''
+
     todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
     todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
 
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved)
-
-    for solution in sorted(solutions, key=lambda x: countSolved(x)):
+    sortedSolutions = list(sorted(solutions, key=lambda x: countSolved(x.puzzle)))
+    finalBests = list(filter(lambda x: countSolved(x.puzzle) > 15,sortedSolutions))
+    for solution in finalBests:
         print(solution)
 
     return wordLists

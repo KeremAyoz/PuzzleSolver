@@ -72,33 +72,21 @@ class Puzzle:
                 #Combine arrays alternating order
                 for i in range(10):
                     if i % 2 == 0:
-                        newPros.append(hori[i/2])
+                        newPros.append(h[i//2])
                     else:
-                        newPros.append(verti[i/2])
-            allNewProcedures.append(newPros)
+                        newPros.append(v[i//2])
+                allNewProcedures.append(newPros)
         return allNewProcedures
 
     def makeAllPlacements(self, flag, procedure):
         newPuzzleStates = []
-        if flag:
-            for i in procedure:
-                if self.geometry[i][3] == 'h' and not self.geometry[i][4]:
-                    currentWordList = self.constraintCheck(self.geometry[i], self.wordLists[i])
-                    for word in currentWordList:
-                        newPuzzle = self.fillTheWord(self.geometry[i], word)
-                        newGeo = copy.deepcopy(self.geometry)
-                        newGeo[i] = (self.geometry[i][0], self.geometry[i][1], self.geometry[i][2], self.geometry[i][3], True)
-                        newPuzzleStates.append(Puzzle(newGeo, self.wordLists, newPuzzle))
-                    break
-        else:
-            for i in procedure:
-                if self.geometry[i][3] == 'v' and not self.geometry[i][4]:
-                    currentWordList = self.constraintCheck(self.geometry[i], self.wordLists[i])
-                    for word in currentWordList:
-                        newPuzzle = self.fillTheWord(self.geometry[i], word)
-                        newGeo = copy.deepcopy(self.geometry)
-                        newGeo[i] = (self.geometry[i][0], self.geometry[i][1], self.geometry[i][2], self.geometry[i][3], True)
-                        newPuzzleStates.append(Puzzle(newGeo, self.wordLists, newPuzzle))
-                    break
-
+        for i in procedure:
+            if not self.geometry[i][4]:
+                currentWordList = self.constraintCheck(self.geometry[i], self.wordLists[i])
+                for word in currentWordList:
+                    newPuzzle = self.fillTheWord(self.geometry[i], word)
+                    newGeo = copy.deepcopy(self.geometry)
+                    newGeo[i] = (self.geometry[i][0], self.geometry[i][1], self.geometry[i][2], self.geometry[i][3], True)
+                    newPuzzleStates.append(Puzzle(newGeo, self.wordLists, newPuzzle))
+                break
         return newPuzzleStates

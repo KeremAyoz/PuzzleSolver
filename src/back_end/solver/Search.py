@@ -4,7 +4,7 @@ import copy
 import itertools
 import threading
 import pprint
-
+import sys
 
 class DFS:
 
@@ -29,15 +29,14 @@ class DFS:
         return list(itertools.chain.from_iterable(self.bests))
 
     def depth_firts_search(self, start, goal, id):
-        counter = 0
         # Form a one element queue consisting of start
         self.queue[0].insert(0, start)
         flag = True
         # While queue is not empty
         allProcedures = start.orderProcedure()
         for procedure in allProcedures:
-            print(procedure)
-            while(self.queue[id]):
+            #print(procedure)
+            while(len(self.queue[id]) > 0):
 
                 # Select randomly
                 stateWillBeExpanded = self.queue[id][0]
@@ -50,6 +49,7 @@ class DFS:
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")
+                    sys.exit()
                     self.bests[id].append(self.queue[id][0])
                     return self.bests[id]
 
