@@ -255,8 +255,7 @@ def solve(callback, date):
     todaysSolved = Puzzle(geometry, finalWordLists, puzzleToSolvedPuzzle(puzzle_json))
 
     s = DFS(callback)
-    solutions = s.threading_wrap(todays, todaysSolved)
-    for solution in solutions:
-        print(solution)
+    solutions = s.threading_wrap(todays, todaysSolved, date)
+    print(solutions)
 
     return wordLists
