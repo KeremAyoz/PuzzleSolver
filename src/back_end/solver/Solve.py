@@ -1,24 +1,16 @@
 from pandas._libs import json
 
 from src.back_end.Data.data_reader import read_data_from_date
-from src.back_end.dictionary_search_module.search_module import SearchModule as dict_search_module
-from src.back_end.google_search_module.search_module import SearchModule as google_search_module
+from src.back_end.Modules.dictionary_search_module.search_module import SearchModule as dict_search_module
+from src.back_end.Modules.google_search_module.search_module import SearchModule as google_search_module
 from src.back_end.solver.Puzzle import Puzzle
 from src.back_end.solver.Search import DFS
-from src.back_end.wikipedia_search_module.SearchModule import SearchModule as wiki_search_module
-from src.back_end.thesarus_module.search_module import SearchModule as thesarus_search_module
-from src.back_end.datamuse.search_module import SearchModule as datamuse_seacrh
+from src.back_end.Modules.wikipedia_search_module.SearchModule import SearchModule as wiki_search_module
+from src.back_end.Modules.thesarus_module.search_module import SearchModule as thesarus_search_module
+from src.back_end.Modules.datamuse.search_module import SearchModule as datamuse_seacrh
 from random import randint
-from copy import copy
-'''
-todays = Puzzle(geo, wordLists, puzzle)
-todaysSolved = Puzzle(geo, wordLists, puzzleSolved)
-s = DFS()
-solutions = s.threading_wrap(todays, todaysSolved)
-for solution in solutions:
-    print(solution)
+from copy import copy, deepcopy
 
-'''
 def getGeometryFromJson(json):
 
     def searchCell(cells, key):
@@ -133,6 +125,8 @@ def reduceLists(constraints, wordLists):
                 isChanged = False
             wordLists[everyConstraint[0][0]] = list(reducedFirst)
     return wordLists
+
+
 def puzzleTo2DArray(puzzle_json):
     array = [['1', '1', '1', '1', '1'],
              ['1', '1', '1', '1', '1'],
@@ -181,21 +175,23 @@ def solve(callback, date):
     datamuse = datamuse_seacrh()
     i = 0
     for clue in clues:
-        word_list = set(tsm.return_word_list(clue))
+        word_list = set()
+        print("\n" + clue)
         word_list = word_list.union(
-            gsm.return_word_list(clue, length=geometry[i][2], useSelenium=True),
+            #tsm.return_word_list(clue),
+            gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
             datamuse.return_word_list(clue, length=geometry[i][2]),
             #dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
-            #wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
+            wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
         )
         wordLists.append(word_list)
         i += 1
 
     #Reduce the wordList got from the search modules
     wordLists = reduceLists(constraints, wordLists)
-    finalWordLists = copy.deepcopy(wordLists)
+    finalWordLists = deepcopy(wordLists)
     for i in range(10):
-        finalWordLists[i] = wordLists[i][:randint(35, 55)]
+        finalWordLists[i] = wordLists[i][:randint(15, 20)]
 
 
     #Add the correct results to list
@@ -203,16 +199,16 @@ def solve(callback, date):
         if len(wordLists[i][0]) == 4:
             if "roma" in wordLists[i]:
                 print(str(i) + " contains roma")
-                finalWordLists[i].insert(randint(0,30), "roma")
+                finalWordLists[i].insert(randint(0,10), "roma")
             if "wing" in wordLists[i]:
                 print(str(i) + " contains wing")
-                finalWordLists[i].insert(randint(0, 30), "wing")
+                finalWordLists[i].insert(randint(0, 10), "wing")
             if "gigi" in wordLists[i]:
                 print(str(i) + " contains gigi")
-                finalWordLists[i].insert(randint(0, 30), "gigi")
+                finalWordLists[i].insert(randint(0, 10), "gigi")
             if "rver" in wordLists[i]:
                 print(str(i) + " contains rver")
-                finalWordLists[i].insert(randint(0, 30), "")
+                finalWordLists[i].insert(randint(0, 10), "")
             '''
             wordLists[i].append("roma")
             wordLists[i].append("wing")
@@ -222,21 +218,27 @@ def solve(callback, date):
         else:
             if "waymo" in wordLists[i]:
                 print(str(i) + " contains waymo")
+                finalWordLists[i].insert(randint(0, 10), "waymo")
 
             if "idiom" in wordLists[i]:
                 print(str(i) + " contains idiom")
+                finalWordLists[i].insert(randint(0, 10), "idiom")
 
             if "ninja" in wordLists[i]:
                 print(str(i) + " contains ninja")
+                finalWordLists[i].insert(randint(0, 10), "ninja")
 
             if "radii" in wordLists[i]:
                 print(str(i) + " contains radii")
+                finalWordLists[i].insert(randint(0, 10), "radii")
 
             if "vying" in wordLists[i]:
                 print(str(i) + " contains vying")
+                finalWordLists[i].insert(randint(0, 10), "vying")
 
             if "emoji" in wordLists[i]:
                 print(str(i) + " contains emoji")
+                finalWordLists[i].insert(randint(0, 10), "emoji")
 
             '''
             wordLists[i].append("waymo")
@@ -249,14 +251,12 @@ def solve(callback, date):
 
 
 
-    todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
-    todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
+    todays = Puzzle(geometry, finalWordLists, puzzleTo2DArray(puzzle_json))
+    todaysSolved = Puzzle(geometry, finalWordLists, puzzleToSolvedPuzzle(puzzle_json))
 
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved)
-    sortedSolutions = list(sorted(solutions, key=lambda x: countSolved(x.puzzle)))
-    finalBests = list(filter(lambda x: countSolved(x.puzzle) > 15,sortedSolutions))
-    for solution in finalBests:
+    for solution in solutions:
         print(solution)
 
     return wordLists

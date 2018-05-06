@@ -79,7 +79,7 @@ class Puzzle:
                 allNewProcedures.append(newPros)
         return allNewProcedures
 
-    def makeAllPlacements(self, flag, procedure):
+    def makeAllPlacements(self, procedure):
         newPuzzleStates = []
         for i in procedure:
             if not self.geometry[i][4]:
