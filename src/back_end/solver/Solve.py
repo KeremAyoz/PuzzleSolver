@@ -181,7 +181,7 @@ def solve(callback, date):
             #tsm.return_word_list(clue),
             gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
             datamuse.return_word_list(clue, length=geometry[i][2]),
-            #dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
+            dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
             wsm.return_word_list(clue, length=geometry[i][2], useSelenium=False)
         )
         wordLists.append(word_list)
@@ -191,7 +191,7 @@ def solve(callback, date):
     wordLists = reduceLists(constraints, wordLists)
     finalWordLists = deepcopy(wordLists)
     for i in range(10):
-        finalWordLists[i] = wordLists[i][:randint(15, 20)]
+        finalWordLists[i] = wordLists[i]
 
 
     #Add the correct results to list
@@ -256,6 +256,5 @@ def solve(callback, date):
 
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved, date)
-    print(solutions)
 
-    return wordLists
+    return solutions

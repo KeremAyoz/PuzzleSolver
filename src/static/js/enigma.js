@@ -160,7 +160,7 @@ function set_puzzle_as(puzzle) {
         if (puzzle[x][y] === "1") {
             $(this).find('.table-cell').text('');
         } else if (puzzle[x][y] !== "0") {
-            $(this).find('.table-cell').text(puzzle[x][y]);
+            $(this).find('.table-cell').text(puzzle[x][y].toUpperCase());
         }
 
     });

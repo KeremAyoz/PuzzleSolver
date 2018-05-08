@@ -17,6 +17,7 @@ class Puzzle:
     # Fixed 5 by 5 puzzle area, which is a char double array
     puzzle = []
 
+
     def __init__(self, geometry, wordLists, puzzle):
         self.geometry = geometry
         self.wordLists = wordLists
@@ -78,6 +79,27 @@ class Puzzle:
                         newPros.append(v[i//2])
                 allNewProcedures.append(newPros)
         return allNewProcedures
+
+    def decideProcedure(self,solutions,wordLists):
+        #Get the answers list
+        procedure = []
+        sol = []
+        for value in solutions['Down'].values():
+            sol.append(value)
+        for value in solutions['Across'].values():
+            sol.append(value)
+        for i in range(len(wordLists)):
+            flag = False
+            for word in sol:
+                if word.lower() in wordLists[i]:
+                    flag = True
+                    procedure.insert(0,i)
+            if not flag:
+                procedure.append(i)
+        print(procedure)
+        return procedure
+
+
 
     def makeAllPlacements(self, procedure):
         newPuzzleStates = []
