@@ -43,7 +43,7 @@ class DFS:
 
         # While queue is not empty
         # allProcedures = start.orderProcedure()
-        allProcedures = [start.decideProcedure(sol2,start.wordLists)]
+        allProcedures = [start.combineResults(sol2,start.wordLists)]
 
         for procedure in allProcedures:
             # Form a one element queue consisting of start
@@ -53,7 +53,6 @@ class DFS:
                 minIndexInQueue = self.queue[id].index(max(self.queue[id], key=lambda o: self.count_solved(o.puzzle, sol)))
                 # Select randomly
                 stateWillBeExpanded = self.queue[id][minIndexInQueue]
-
                 # If goal node is found in front of the queue, announce success
                 if stateWillBeExpanded.puzzle == goal.puzzle:
                     print("Success: " + str(self.queue[id][0]) + "\n")

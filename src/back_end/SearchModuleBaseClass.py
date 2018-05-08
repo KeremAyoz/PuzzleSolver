@@ -31,8 +31,8 @@ class SearchModuleBaseClass:
                 tokenized_list = tokenized_list.union(lemmas)
 
         filtered_words = [word for word in tokenized_list
-                          if word not in stopwords.words('english')
-                          and self.is_english_word(word)]
+                          if word not in stopwords.words('english')]
+                          #and self.is_english_word(word)]
 
         return set(filtered_words)
 

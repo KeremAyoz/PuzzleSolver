@@ -189,72 +189,14 @@ def solve(callback, date):
 
     #Reduce the wordList got from the search modules
     wordLists = reduceLists(constraints, wordLists)
-    finalWordLists = deepcopy(wordLists)
-    for i in range(10):
-        finalWordLists[i] = wordLists[i]
-
-
-    #Add the correct results to list
-    for i in range(len(wordLists)):
-        if len(wordLists[i][0]) == 4:
-            if "roma" in wordLists[i]:
-                print(str(i) + " contains roma")
-                finalWordLists[i].insert(randint(0,10), "roma")
-            if "wing" in wordLists[i]:
-                print(str(i) + " contains wing")
-                finalWordLists[i].insert(randint(0, 10), "wing")
-            if "gigi" in wordLists[i]:
-                print(str(i) + " contains gigi")
-                finalWordLists[i].insert(randint(0, 10), "gigi")
-            if "rver" in wordLists[i]:
-                print(str(i) + " contains rver")
-                finalWordLists[i].insert(randint(0, 10), "")
-            '''
-            wordLists[i].append("roma")
-            wordLists[i].append("wing")
-            wordLists[i].append("gigi")
-            wordLists[i].append("rver")
-            '''
-        else:
-            if "waymo" in wordLists[i]:
-                print(str(i) + " contains waymo")
-                finalWordLists[i].insert(randint(0, 10), "waymo")
-
-            if "idiom" in wordLists[i]:
-                print(str(i) + " contains idiom")
-                finalWordLists[i].insert(randint(0, 10), "idiom")
-
-            if "ninja" in wordLists[i]:
-                print(str(i) + " contains ninja")
-                finalWordLists[i].insert(randint(0, 10), "ninja")
-
-            if "radii" in wordLists[i]:
-                print(str(i) + " contains radii")
-                finalWordLists[i].insert(randint(0, 10), "radii")
-
-            if "vying" in wordLists[i]:
-                print(str(i) + " contains vying")
-                finalWordLists[i].insert(randint(0, 10), "vying")
-
-            if "emoji" in wordLists[i]:
-                print(str(i) + " contains emoji")
-                finalWordLists[i].insert(randint(0, 10), "emoji")
-
-            '''
-            wordLists[i].append("waymo")
-            wordLists[i].append("idiom")
-            wordLists[i].append("ninja")
-            wordLists[i].append("radii")
-            wordLists[i].append("vying")
-            wordLists[i].append("emoji")
-            '''
-
-
-
-    todays = Puzzle(geometry, finalWordLists, puzzleTo2DArray(puzzle_json))
-    todaysSolved = Puzzle(geometry, finalWordLists, puzzleToSolvedPuzzle(puzzle_json))
-
+    #finalWordLists = deepcopy(wordLists)
+    todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
+    todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
+    f, n = todays.decideProcedure(puzzle_json['solutions'],wordLists)
+    return len(f)
+'''
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved, date)
 
     return solutions
+'''

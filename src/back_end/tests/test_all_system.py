@@ -10,8 +10,8 @@ class test_dictionary_module(unittest.TestCase):
         full_data = read_full_data()
         with open("results.json", "a+") as result_file:
             for puzzle in full_data:
-                solution = solve(None, puzzle['date'])
-                solution_count = countSolved(solution.puzzle)
+                solution_count = solve(None, puzzle['date'])
+                print(puzzle['date'] + ": " + str(solution_count))
                 result_file.write(dumps({puzzle['date']: solution_count}))
 
 

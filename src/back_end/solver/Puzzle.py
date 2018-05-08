@@ -1,6 +1,5 @@
 from random import randint
 import copy
-
 import itertools
 
 
@@ -82,23 +81,76 @@ class Puzzle:
 
     def decideProcedure(self,solutions,wordLists):
         #Get the answers list
-        procedure = []
-        sol = []
-        for value in solutions['Down'].values():
-            sol.append(value)
-        for value in solutions['Across'].values():
-            sol.append(value)
-        for i in range(len(wordLists)):
-            flag = False
-            for word in sol:
-                if word.lower() in wordLists[i]:
-                    flag = True
-                    procedure.insert(0,i)
-            if not flag:
-                procedure.append(i)
-        print(procedure)
-        return procedure
+        found = []
+        not_found = []
 
+        #All sized 5
+        solh = []
+        solv = []
+        keyh = []
+        keyv = []
+
+        for value in solutions['Across'].values():
+            solh.append(value)
+        for value in solutions['Down'].values():
+            solv.append(value)
+
+        for value in solutions['Across'].keys():
+            keyh.append(value)
+        for value in solutions['Down'].keys():
+            keyv.append(value)
+
+        # Horizontal
+        for i in range(5):
+            # Get converted index
+            ind = -1
+            for j in range(len(self.geometry)):
+                if self.geometry[j][3] == 'h' and self.geometry[j][0] == keyh[i]:
+                    ind = j
+                    break
+            # Check if it exists
+            if solh[i].lower() in wordLists[ind]:
+                found.append(ind)
+            else:
+                not_found.append(ind)
+        # Vertical
+        for i in range(5):
+            # Get converted index
+            ind = -1
+            for j in range(len(self.geometry)):
+                if self.geometry[j][3] == 'v' and self.geometry[j][0] == keyv[i]:
+                    ind = j
+                    break
+            # Check if it exists
+            if solv[i].lower() in wordLists[ind]:
+                found.append(ind)
+            else:
+                not_found.append(ind)
+        return found,not_found
+
+    def optimizeFoundedProcedure(self, procedure):
+        h = []
+        v = []
+        result = []
+        for p in procedure:
+            if self.geometry[p][3] == 'v':
+                v.append(p)
+            else:
+                h.append(p)
+
+        num = min(len(h), len(v))
+        result = [None] * (num * 2)
+        result[::2] = h[:num]
+        result[1::2] = v[:num]
+        result.extend(h[num:])
+        result.extend(v[num:])
+        return result
+
+    def combineResults(self,solutions,wordLists):
+        f, nf = self.decideProcedure(solutions,wordLists)
+        f = self.optimizeFoundedProcedure(f)
+        final = f + nf
+        return final
 
 
     def makeAllPlacements(self, procedure):
