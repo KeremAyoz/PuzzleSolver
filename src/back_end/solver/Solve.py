@@ -189,14 +189,14 @@ def solve(callback, date):
 
     #Reduce the wordList got from the search modules
     wordLists = reduceLists(constraints, wordLists)
-    #finalWordLists = deepcopy(wordLists)
     todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
     todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
+    '''
+    # Comment out here to test
     f, n = todays.decideProcedure(puzzle_json['solutions'],wordLists)
     return len(f)
-'''
+    '''
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved, date)
 
     return solutions
-'''
