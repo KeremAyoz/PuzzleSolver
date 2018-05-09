@@ -1,3 +1,5 @@
+from time import sleep
+
 from src.back_end.SearchModuleBaseClass import SearchModuleBaseClass
 import requests
 from bs4 import BeautifulSoup
@@ -20,7 +22,7 @@ class SearchModule(SearchModuleBaseClass):
             result_elements = soup.text
             for word in result_elements.split():
                 word_list.add(word)
-
+            sleep(1)
         # Process word list
         word_list = self.clear_word_list(word_list)
         word_list = list(filter(lambda x: len(x) == length, word_list))

@@ -1,12 +1,9 @@
-from pandas._libs import json
-
 from src.back_end.Data.data_reader import read_data_from_date
 from src.back_end.Modules.dictionary_search_module.search_module import SearchModule as dict_search_module
 from src.back_end.Modules.google_search_module.search_module import SearchModule as google_search_module
 from src.back_end.solver.Puzzle import Puzzle
 from src.back_end.solver.Search import DFS
 from src.back_end.Modules.wikipedia_search_module.SearchModule import SearchModule as wiki_search_module
-from src.back_end.Modules.thesarus_module.search_module import SearchModule as thesarus_search_module
 from src.back_end.Modules.datamuse.search_module import SearchModule as datamuse_seacrh
 from random import randint
 from copy import copy, deepcopy
@@ -162,13 +159,12 @@ def countSolved(array):
     return count
 
 
-def solve(callback, date):
+def solve(callback, date,):
     puzzle_json = read_data_from_date(date)
     geometry = getGeometryFromJson(puzzle_json)
     constraints = getConstraintsFromGeometry(geometry)
     clues = getClues(puzzle_json,geometry)
     wordLists = []
-    tsm = thesarus_search_module()
     gsm = google_search_module()
     dsm = dict_search_module()
     wsm = wiki_search_module()
@@ -178,7 +174,6 @@ def solve(callback, date):
         word_list = set()
         print("\n" + clue)
         word_list = word_list.union(
-            #tsm.return_word_list(clue),
             gsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
             datamuse.return_word_list(clue, length=geometry[i][2]),
             dsm.return_word_list(clue, length=geometry[i][2], useSelenium=False),
@@ -191,12 +186,12 @@ def solve(callback, date):
     wordLists = reduceLists(constraints, wordLists)
     todays = Puzzle(geometry, wordLists, puzzleTo2DArray(puzzle_json))
     todaysSolved = Puzzle(geometry, wordLists, puzzleToSolvedPuzzle(puzzle_json))
-    '''
     # Comment out here to test
+
     f, n = todays.decideProcedure(puzzle_json['solutions'],wordLists)
     return len(f)
-    '''
+'''
     s = DFS(callback)
     solutions = s.threading_wrap(todays, todaysSolved, date)
-
-    return solutions
+'''
+    #return solutions

@@ -1,3 +1,5 @@
+from time import sleep
+
 import requests
 
 from src.back_end.SearchModuleBaseClass import SearchModuleBaseClass
@@ -12,7 +14,7 @@ class SearchModule(SearchModuleBaseClass):
         r = requests.get(
             'https://api.datamuse.com/words?ml={}'
             .format(query))
-
+        sleep(1)
         results = r.json()
         word_list = []
         for result in results:

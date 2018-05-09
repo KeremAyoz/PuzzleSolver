@@ -22,7 +22,7 @@ def parse_google_search(query, site=None):
     #     for word in elem.text.split():
     #         word_list.add(word)
 
-    result_headers = driver.find_elements_by_class_name("r")
+    result_headers = driver.find_elements_by_class_name("rc")
     for elem in result_headers:
         for word in elem.text.split():
             word_list.add(word)
