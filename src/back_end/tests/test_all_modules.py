@@ -48,7 +48,7 @@ class test_dictionary_module(unittest.TestCase):
                         gsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
                         dsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
                         wsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
-                        datamuse.return_word_list(search_query)
+                        datamuse.return_word_list(search_query, length=len(answer))
                     )
                     if answer.lower() in word_list:
                         print("found answer for: " + search_query)
@@ -70,7 +70,7 @@ class test_dictionary_module(unittest.TestCase):
                         gsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
                         dsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
                         wsm.return_word_list(search_query, useSelenium=False, length=len(answer)),
-                        datamuse.return_word_list(search_query)
+                        datamuse.return_word_list(search_query, length=len(answer))
                     )
                     if answer.lower() in word_list:
                         print("found answer for: " + search_query)
